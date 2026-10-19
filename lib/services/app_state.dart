@@ -47,7 +47,10 @@ class AppState extends ChangeNotifier {
 
   static const int masteryDays = 3;
 
-  late SharedPreferences _prefs;
+  SharedPreferences? _prefs;
+
+  /// Set when saved data could not be loaded; the app still runs without it.
+  String? initError;
   ThemeMode themeMode = ThemeMode.system;
   final Map<String, CardProgress> _progress = {};
   final Map<String, int> _daily = {};
@@ -56,27 +59,33 @@ class AppState extends ChangeNotifier {
   String? resumeCardId;
 
   Future<void> init() async {
-    _prefs = await SharedPreferences.getInstance();
-    themeMode = switch (_prefs.getString('theme')) {
-      'light' => ThemeMode.light,
-      'dark' => ThemeMode.dark,
-      _ => ThemeMode.system,
-    };
-    _readJson('progress').forEach((k, v) {
-      if (v is Map) _progress[k] = CardProgress.fromJson(Map<String, dynamic>.from(v));
-    });
-    _readJson('daily').forEach((k, v) {
-      if (v is num) _daily[k] = v.toInt();
-    });
-    _readJson('totals').forEach((k, v) {
-      if (v is num) _totals[k] = v.toInt();
-    });
-    resumeSetKey = _prefs.getString('resume_set');
-    resumeCardId = _prefs.getString('resume_card');
+    try {
+      final prefs = await SharedPreferences.getInstance().timeout(const Duration(seconds: 8));
+      _prefs = prefs;
+      themeMode = switch (prefs.getString('theme')) {
+        'light' => ThemeMode.light,
+        'dark' => ThemeMode.dark,
+        _ => ThemeMode.system,
+      };
+      _readJson('progress').forEach((k, v) {
+        if (v is Map) _progress[k] = CardProgress.fromJson(Map<String, dynamic>.from(v));
+      });
+      _readJson('daily').forEach((k, v) {
+        if (v is num) _daily[k] = v.toInt();
+      });
+      _readJson('totals').forEach((k, v) {
+        if (v is num) _totals[k] = v.toInt();
+      });
+      resumeSetKey = prefs.getString('resume_set');
+      resumeCardId = prefs.getString('resume_card');
+    } catch (e) {
+      initError = 'Saved data could not be loaded: $e';
+    }
+    notifyListeners();
   }
 
   Map<String, dynamic> _readJson(String key) {
-    final s = _prefs.getString(key);
+    final s = _prefs?.getString(key);
     if (s == null) return {};
     try {
       final v = jsonDecode(s);
@@ -94,7 +103,7 @@ class AppState extends ChangeNotifier {
   Future<void> setThemeMode(ThemeMode mode) async {
     themeMode = mode;
     notifyListeners();
-    await _prefs.setString('theme', switch (mode) {
+    await _prefs?.setString('theme', switch (mode) {
       ThemeMode.light => 'light',
       ThemeMode.dark => 'dark',
       ThemeMode.system => 'system',
@@ -125,8 +134,8 @@ class AppState extends ChangeNotifier {
     _daily[today] = (_daily[today] ?? 0) + 1;
     _totals[card.deck] = (_totals[card.deck] ?? 0) + 1;
     notifyListeners();
-    await _prefs.setString('daily', jsonEncode(_daily));
-    await _prefs.setString('totals', jsonEncode(_totals));
+    await _prefs?.setString('daily', jsonEncode(_daily));
+    await _prefs?.setString('totals', jsonEncode(_totals));
   }
 
   // ---- Spaced repetition ----
@@ -151,7 +160,7 @@ class AppState extends ChangeNotifier {
       }
     }
     notifyListeners();
-    await _prefs.setString('progress', jsonEncode(_progress.map((k, v) => MapEntry(k, v.toJson()))));
+    await _prefs?.setString('progress', jsonEncode(_progress.map((k, v) => MapEntry(k, v.toJson()))));
   }
 
   // ---- Resume where the player stopped ----
@@ -159,7 +168,7 @@ class AppState extends ChangeNotifier {
   Future<void> saveResume(PracticeSet set, KanaCard card) async {
     resumeSetKey = set.key;
     resumeCardId = card.id;
-    await _prefs.setString('resume_set', set.key);
-    await _prefs.setString('resume_card', card.id);
+    await _prefs?.setString('resume_set', set.key);
+    await _prefs?.setString('resume_card', card.id);
   }
 }

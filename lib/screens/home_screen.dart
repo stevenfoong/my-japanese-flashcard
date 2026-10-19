@@ -60,6 +60,17 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ],
                 ),
+                if (state.initError != null) ...[
+                  const SizedBox(height: 16),
+                  Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(color: c.redSoft, borderRadius: BorderRadius.circular(14)),
+                    child: SelectableText(
+                      '${state.initError}\nProgress will not be saved until this is fixed.',
+                      style: TextStyle(fontSize: 12, color: c.redText),
+                    ),
+                  ),
+                ],
                 const SizedBox(height: 20),
                 Row(
                   children: [

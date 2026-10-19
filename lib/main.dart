@@ -9,8 +9,9 @@ import 'theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   _registerFontLicenses();
-  await AppState.instance.init();
+  // Draw the app straight away; saved data loads in the background.
   runApp(const KanaApp());
+  await AppState.instance.init();
 }
 
 void _registerFontLicenses() {

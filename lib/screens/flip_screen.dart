@@ -36,6 +36,7 @@ class _FlipScreenState extends State<FlipScreen> {
   final List<(String, int)> _againQueue = [];
 
   KanaCard? _card;
+  String? _error;
   bool _flipped = false;
   int _shown = 0;
   int _answered = 0;
@@ -47,7 +48,13 @@ class _FlipScreenState extends State<FlipScreen> {
   }
 
   Future<void> _load() async {
-    final cards = await Decks.loadSet(widget.set);
+    final List<KanaCard> cards;
+    try {
+      cards = await Decks.loadSet(widget.set);
+    } catch (e) {
+      if (mounted) setState(() => _error = 'Cards could not be loaded: $e');
+      return;
+    }
     if (!mounted) return;
     _pool = cards;
     for (final c in cards) {
@@ -195,7 +202,11 @@ class _FlipScreenState extends State<FlipScreen> {
               const SizedBox(height: 14),
               Expanded(
                 child: card == null
-                    ? const Center(child: CircularProgressIndicator())
+                    ? Center(
+                        child: _error == null
+                            ? const CircularProgressIndicator()
+                            : SelectableText(_error!, style: TextStyle(color: c.redText)),
+                      )
                     : AnimatedSwitcher(
                         duration: const Duration(milliseconds: 220),
                         transitionBuilder: (child, anim) => FadeTransition(
