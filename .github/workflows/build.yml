@@ -61,6 +61,25 @@ jobs:
           cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk kana-cards.apk
           cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk kana-cards-older-phones.apk
 
+      - name: Record build details
+        run: |
+          {
+            echo "Built from ${GITHUB_SHA::7}. On your phone, download kana-cards.apk and open it."
+            echo "Use kana-cards-older-phones.apk only if the first one will not install."
+            echo
+            echo "### Build details"
+            echo '```'
+            flutter --version | head -1
+            for p in shared_preferences shared_preferences_android flutter_tts jni; do
+              v=$(awk -v p="  $p:" '$0==p{f=1} f&&/version:/{print $2; exit}' pubspec.lock)
+              echo "$p: ${v:-not used}"
+            done
+            grep -E "^shrink=" android/gradle.properties || echo "shrink: default"
+            if [ -d build/app/outputs/mapping/release ]; then echo "R8 mapping: present (shrinking ran)"; else echo "R8 mapping: none (shrinking off)"; fi
+            echo '```'
+          } > build-info.md
+          cat build-info.md
+
       - uses: actions/upload-artifact@v4
         with:
           name: kana-cards-build-${{ github.run_number }}
@@ -75,4 +94,4 @@ jobs:
             --prerelease \
             --target "$GITHUB_SHA" \
             --title "Latest build #${{ github.run_number }}" \
-            --notes "Built from ${GITHUB_SHA::7}. On your phone, download kana-cards.apk and open it. Use kana-cards-older-phones.apk only if the first one will not install."
+            --notes-file build-info.md

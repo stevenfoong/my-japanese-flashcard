@@ -38,3 +38,12 @@ existing = rules.read_text(encoding="utf-8") if rules.exists() else ""
 if "io.flutter.plugins" not in existing:
     rules.write_text(existing + ("\n" if existing else "") + keep, encoding="utf-8")
 print(rules.read_text(encoding="utf-8"))
+
+# Turn release-build shrinking off entirely; the keep rules alone did not stop
+# the shared_preferences plugin from breaking. Flutter's Gradle plugin reads
+# the "shrink" property.
+props = Path("android/gradle.properties")
+ptext = props.read_text(encoding="utf-8") if props.exists() else ""
+if "shrink=" not in ptext:
+    props.write_text(ptext.rstrip("\n") + "\nshrink=false\n", encoding="utf-8")
+print(props.read_text(encoding="utf-8"))
