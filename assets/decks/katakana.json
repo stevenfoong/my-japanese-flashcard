@@ -1,0 +1,1962 @@
+{
+ "deck": "katakana",
+ "title": "Katakana",
+ "version": 1,
+ "cards": [
+  {
+   "id": "kata-a",
+   "front": "ア",
+   "romaji": "a",
+   "group": "basic",
+   "partner": "あ",
+   "look_alike": [
+    "マ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "アイス",
+     "romaji": "aisu",
+     "meaning": "ice cream"
+    },
+    {
+     "word": "アメリカ",
+     "romaji": "amerika",
+     "meaning": "America"
+    }
+   ]
+  },
+  {
+   "id": "kata-i",
+   "front": "イ",
+   "romaji": "i",
+   "group": "basic",
+   "partner": "い",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "イギリス",
+     "romaji": "igirisu",
+     "meaning": "the UK"
+    },
+    {
+     "word": "インターネット",
+     "romaji": "intaanetto",
+     "meaning": "internet"
+    }
+   ]
+  },
+  {
+   "id": "kata-u",
+   "front": "ウ",
+   "romaji": "u",
+   "group": "basic",
+   "partner": "う",
+   "look_alike": [
+    "ワ",
+    "フ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ウイスキー",
+     "romaji": "uisukii",
+     "meaning": "whisky"
+    }
+   ]
+  },
+  {
+   "id": "kata-e",
+   "front": "エ",
+   "romaji": "e",
+   "group": "basic",
+   "partner": "え",
+   "look_alike": [
+    "工"
+   ],
+   "note": "工 is the kanji for craft",
+   "audio": null,
+   "examples": [
+    {
+     "word": "エレベーター",
+     "romaji": "erebeetaa",
+     "meaning": "elevator"
+    },
+    {
+     "word": "エアコン",
+     "romaji": "eakon",
+     "meaning": "air conditioner"
+    }
+   ]
+  },
+  {
+   "id": "kata-o",
+   "front": "オ",
+   "romaji": "o",
+   "group": "basic",
+   "partner": "お",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "オレンジ",
+     "romaji": "orenji",
+     "meaning": "orange"
+    }
+   ]
+  },
+  {
+   "id": "kata-ka",
+   "front": "カ",
+   "romaji": "ka",
+   "group": "basic",
+   "partner": "か",
+   "look_alike": [
+    "力"
+   ],
+   "note": "力 is the kanji for power",
+   "audio": null,
+   "examples": [
+    {
+     "word": "カメラ",
+     "romaji": "kamera",
+     "meaning": "camera"
+    },
+    {
+     "word": "カード",
+     "romaji": "kaado",
+     "meaning": "card"
+    }
+   ]
+  },
+  {
+   "id": "kata-ki",
+   "front": "キ",
+   "romaji": "ki",
+   "group": "basic",
+   "partner": "き",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ケーキ",
+     "romaji": "keeki",
+     "meaning": "cake"
+    },
+    {
+     "word": "キロ",
+     "romaji": "kiro",
+     "meaning": "kilo"
+    }
+   ]
+  },
+  {
+   "id": "kata-ku",
+   "front": "ク",
+   "romaji": "ku",
+   "group": "basic",
+   "partner": "く",
+   "look_alike": [
+    "ケ",
+    "タ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "タクシー",
+     "romaji": "takushii",
+     "meaning": "taxi"
+    },
+    {
+     "word": "クーポン",
+     "romaji": "kuupon",
+     "meaning": "coupon"
+    }
+   ]
+  },
+  {
+   "id": "kata-ke",
+   "front": "ケ",
+   "romaji": "ke",
+   "group": "basic",
+   "partner": "け",
+   "look_alike": [
+    "ク"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ケーキ",
+     "romaji": "keeki",
+     "meaning": "cake"
+    },
+    {
+     "word": "チケット",
+     "romaji": "chiketto",
+     "meaning": "ticket"
+    }
+   ]
+  },
+  {
+   "id": "kata-ko",
+   "front": "コ",
+   "romaji": "ko",
+   "group": "basic",
+   "partner": "こ",
+   "look_alike": [
+    "ユ",
+    "ロ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "コーヒー",
+     "romaji": "koohii",
+     "meaning": "coffee"
+    },
+    {
+     "word": "コンビニ",
+     "romaji": "konbini",
+     "meaning": "convenience store"
+    }
+   ]
+  },
+  {
+   "id": "kata-sa",
+   "front": "サ",
+   "romaji": "sa",
+   "group": "basic",
+   "partner": "さ",
+   "look_alike": [
+    "セ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "サラダ",
+     "romaji": "sarada",
+     "meaning": "salad"
+    },
+    {
+     "word": "サイズ",
+     "romaji": "saizu",
+     "meaning": "size"
+    }
+   ]
+  },
+  {
+   "id": "kata-shi",
+   "front": "シ",
+   "romaji": "shi",
+   "group": "basic",
+   "partner": "し",
+   "look_alike": [
+    "ツ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "タクシー",
+     "romaji": "takushii",
+     "meaning": "taxi"
+    },
+    {
+     "word": "シャツ",
+     "romaji": "shatsu",
+     "meaning": "shirt"
+    }
+   ]
+  },
+  {
+   "id": "kata-su",
+   "front": "ス",
+   "romaji": "su",
+   "group": "basic",
+   "partner": "す",
+   "look_alike": [
+    "ヌ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "バス",
+     "romaji": "basu",
+     "meaning": "bus"
+    },
+    {
+     "word": "スープ",
+     "romaji": "suupu",
+     "meaning": "soup"
+    }
+   ]
+  },
+  {
+   "id": "kata-se",
+   "front": "セ",
+   "romaji": "se",
+   "group": "basic",
+   "partner": "せ",
+   "look_alike": [
+    "サ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "セット",
+     "romaji": "setto",
+     "meaning": "set meal"
+    },
+    {
+     "word": "セール",
+     "romaji": "seeru",
+     "meaning": "sale"
+    }
+   ]
+  },
+  {
+   "id": "kata-so",
+   "front": "ソ",
+   "romaji": "so",
+   "group": "basic",
+   "partner": "そ",
+   "look_alike": [
+    "ン",
+    "リ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ソース",
+     "romaji": "soosu",
+     "meaning": "sauce"
+    },
+    {
+     "word": "ソフトクリーム",
+     "romaji": "sofuto kuriimu",
+     "meaning": "soft-serve ice cream"
+    }
+   ]
+  },
+  {
+   "id": "kata-ta",
+   "front": "タ",
+   "romaji": "ta",
+   "group": "basic",
+   "partner": "た",
+   "look_alike": [
+    "ク"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "タクシー",
+     "romaji": "takushii",
+     "meaning": "taxi"
+    },
+    {
+     "word": "タオル",
+     "romaji": "taoru",
+     "meaning": "towel"
+    }
+   ]
+  },
+  {
+   "id": "kata-chi",
+   "front": "チ",
+   "romaji": "chi",
+   "group": "basic",
+   "partner": "ち",
+   "look_alike": [
+    "テ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "チーズ",
+     "romaji": "chiizu",
+     "meaning": "cheese"
+    },
+    {
+     "word": "チケット",
+     "romaji": "chiketto",
+     "meaning": "ticket"
+    }
+   ]
+  },
+  {
+   "id": "kata-tsu",
+   "front": "ツ",
+   "romaji": "tsu",
+   "group": "basic",
+   "partner": "つ",
+   "look_alike": [
+    "シ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ツアー",
+     "romaji": "tsuaa",
+     "meaning": "tour"
+    },
+    {
+     "word": "シャツ",
+     "romaji": "shatsu",
+     "meaning": "shirt"
+    }
+   ]
+  },
+  {
+   "id": "kata-te",
+   "front": "テ",
+   "romaji": "te",
+   "group": "basic",
+   "partner": "て",
+   "look_alike": [
+    "チ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ホテル",
+     "romaji": "hoteru",
+     "meaning": "hotel"
+    },
+    {
+     "word": "テーブル",
+     "romaji": "teeburu",
+     "meaning": "table"
+    }
+   ]
+  },
+  {
+   "id": "kata-to",
+   "front": "ト",
+   "romaji": "to",
+   "group": "basic",
+   "partner": "と",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "トイレ",
+     "romaji": "toire",
+     "meaning": "toilet"
+    },
+    {
+     "word": "トマト",
+     "romaji": "tomato",
+     "meaning": "tomato"
+    }
+   ]
+  },
+  {
+   "id": "kata-na",
+   "front": "ナ",
+   "romaji": "na",
+   "group": "basic",
+   "partner": "な",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "バナナ",
+     "romaji": "banana",
+     "meaning": "banana"
+    },
+    {
+     "word": "ナイフ",
+     "romaji": "naifu",
+     "meaning": "knife"
+    }
+   ]
+  },
+  {
+   "id": "kata-ni",
+   "front": "ニ",
+   "romaji": "ni",
+   "group": "basic",
+   "partner": "に",
+   "look_alike": [
+    "二"
+   ],
+   "note": "二 is the kanji for two",
+   "audio": null,
+   "examples": [
+    {
+     "word": "メニュー",
+     "romaji": "menyuu",
+     "meaning": "menu"
+    },
+    {
+     "word": "テニス",
+     "romaji": "tenisu",
+     "meaning": "tennis"
+    }
+   ]
+  },
+  {
+   "id": "kata-nu",
+   "front": "ヌ",
+   "romaji": "nu",
+   "group": "basic",
+   "partner": "ぬ",
+   "look_alike": [
+    "ス",
+    "メ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ヌードル",
+     "romaji": "nuudoru",
+     "meaning": "noodles"
+    }
+   ]
+  },
+  {
+   "id": "kata-ne",
+   "front": "ネ",
+   "romaji": "ne",
+   "group": "basic",
+   "partner": "ね",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ネット",
+     "romaji": "netto",
+     "meaning": "internet"
+    },
+    {
+     "word": "ネクタイ",
+     "romaji": "nekutai",
+     "meaning": "necktie"
+    }
+   ]
+  },
+  {
+   "id": "kata-no",
+   "front": "ノ",
+   "romaji": "no",
+   "group": "basic",
+   "partner": "の",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ノート",
+     "romaji": "nooto",
+     "meaning": "notebook"
+    },
+    {
+     "word": "ピアノ",
+     "romaji": "piano",
+     "meaning": "piano"
+    }
+   ]
+  },
+  {
+   "id": "kata-ha",
+   "front": "ハ",
+   "romaji": "ha",
+   "group": "basic",
+   "partner": "は",
+   "look_alike": [
+    "八"
+   ],
+   "note": "八 is the kanji for eight",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ハンバーガー",
+     "romaji": "hanbaagaa",
+     "meaning": "hamburger"
+    },
+    {
+     "word": "ハム",
+     "romaji": "hamu",
+     "meaning": "ham"
+    }
+   ]
+  },
+  {
+   "id": "kata-hi",
+   "front": "ヒ",
+   "romaji": "hi",
+   "group": "basic",
+   "partner": "ひ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "コーヒー",
+     "romaji": "koohii",
+     "meaning": "coffee"
+    },
+    {
+     "word": "ヒーター",
+     "romaji": "hiitaa",
+     "meaning": "heater"
+    }
+   ]
+  },
+  {
+   "id": "kata-fu",
+   "front": "フ",
+   "romaji": "fu",
+   "group": "basic",
+   "partner": "ふ",
+   "look_alike": [
+    "ワ",
+    "ウ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ナイフ",
+     "romaji": "naifu",
+     "meaning": "knife"
+    },
+    {
+     "word": "フォーク",
+     "romaji": "fooku",
+     "meaning": "fork"
+    }
+   ]
+  },
+  {
+   "id": "kata-he",
+   "front": "ヘ",
+   "romaji": "he",
+   "group": "basic",
+   "partner": "へ",
+   "look_alike": [
+    "へ"
+   ],
+   "note": "Same shape as hiragana へ",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ヘルメット",
+     "romaji": "herumetto",
+     "meaning": "helmet"
+    }
+   ]
+  },
+  {
+   "id": "kata-ho",
+   "front": "ホ",
+   "romaji": "ho",
+   "group": "basic",
+   "partner": "ほ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ホテル",
+     "romaji": "hoteru",
+     "meaning": "hotel"
+    },
+    {
+     "word": "ホーム",
+     "romaji": "hoomu",
+     "meaning": "train platform"
+    }
+   ]
+  },
+  {
+   "id": "kata-ma",
+   "front": "マ",
+   "romaji": "ma",
+   "group": "basic",
+   "partner": "ま",
+   "look_alike": [
+    "ア"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "トマト",
+     "romaji": "tomato",
+     "meaning": "tomato"
+    },
+    {
+     "word": "マップ",
+     "romaji": "mappu",
+     "meaning": "map"
+    }
+   ]
+  },
+  {
+   "id": "kata-mi",
+   "front": "ミ",
+   "romaji": "mi",
+   "group": "basic",
+   "partner": "み",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ミルク",
+     "romaji": "miruku",
+     "meaning": "milk"
+    }
+   ]
+  },
+  {
+   "id": "kata-mu",
+   "front": "ム",
+   "romaji": "mu",
+   "group": "basic",
+   "partner": "む",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ハム",
+     "romaji": "hamu",
+     "meaning": "ham"
+    },
+    {
+     "word": "ゲーム",
+     "romaji": "geemu",
+     "meaning": "game"
+    }
+   ]
+  },
+  {
+   "id": "kata-me",
+   "front": "メ",
+   "romaji": "me",
+   "group": "basic",
+   "partner": "め",
+   "look_alike": [
+    "ヌ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "メニュー",
+     "romaji": "menyuu",
+     "meaning": "menu"
+    },
+    {
+     "word": "ラーメン",
+     "romaji": "raamen",
+     "meaning": "ramen"
+    }
+   ]
+  },
+  {
+   "id": "kata-mo",
+   "front": "モ",
+   "romaji": "mo",
+   "group": "basic",
+   "partner": "も",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "レモン",
+     "romaji": "remon",
+     "meaning": "lemon"
+    },
+    {
+     "word": "モール",
+     "romaji": "mooru",
+     "meaning": "shopping mall"
+    }
+   ]
+  },
+  {
+   "id": "kata-ya",
+   "front": "ヤ",
+   "romaji": "ya",
+   "group": "basic",
+   "partner": "や",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ダイヤ",
+     "romaji": "daiya",
+     "meaning": "train timetable"
+    },
+    {
+     "word": "タイヤ",
+     "romaji": "taiya",
+     "meaning": "tyre"
+    }
+   ]
+  },
+  {
+   "id": "kata-yu",
+   "front": "ユ",
+   "romaji": "yu",
+   "group": "basic",
+   "partner": "ゆ",
+   "look_alike": [
+    "コ",
+    "ヨ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ユニフォーム",
+     "romaji": "yunifoomu",
+     "meaning": "uniform"
+    }
+   ]
+  },
+  {
+   "id": "kata-yo",
+   "front": "ヨ",
+   "romaji": "yo",
+   "group": "basic",
+   "partner": "よ",
+   "look_alike": [
+    "ユ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ヨーグルト",
+     "romaji": "yooguruto",
+     "meaning": "yogurt"
+    }
+   ]
+  },
+  {
+   "id": "kata-ra",
+   "front": "ラ",
+   "romaji": "ra",
+   "group": "basic",
+   "partner": "ら",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ラーメン",
+     "romaji": "raamen",
+     "meaning": "ramen"
+    },
+    {
+     "word": "カラオケ",
+     "romaji": "karaoke",
+     "meaning": "karaoke"
+    }
+   ]
+  },
+  {
+   "id": "kata-ri",
+   "front": "リ",
+   "romaji": "ri",
+   "group": "basic",
+   "partner": "り",
+   "look_alike": [
+    "ソ",
+    "り"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "リモコン",
+     "romaji": "rimokon",
+     "meaning": "remote control"
+    }
+   ]
+  },
+  {
+   "id": "kata-ru",
+   "front": "ル",
+   "romaji": "ru",
+   "group": "basic",
+   "partner": "る",
+   "look_alike": [
+    "レ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ビール",
+     "romaji": "biiru",
+     "meaning": "beer"
+    },
+    {
+     "word": "ホテル",
+     "romaji": "hoteru",
+     "meaning": "hotel"
+    }
+   ]
+  },
+  {
+   "id": "kata-re",
+   "front": "レ",
+   "romaji": "re",
+   "group": "basic",
+   "partner": "れ",
+   "look_alike": [
+    "ル"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "トイレ",
+     "romaji": "toire",
+     "meaning": "toilet"
+    },
+    {
+     "word": "レストラン",
+     "romaji": "resutoran",
+     "meaning": "restaurant"
+    }
+   ]
+  },
+  {
+   "id": "kata-ro",
+   "front": "ロ",
+   "romaji": "ro",
+   "group": "basic",
+   "partner": "ろ",
+   "look_alike": [
+    "コ",
+    "口"
+   ],
+   "note": "口 is the kanji for mouth",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ロッカー",
+     "romaji": "rokkaa",
+     "meaning": "locker"
+    }
+   ]
+  },
+  {
+   "id": "kata-wa",
+   "front": "ワ",
+   "romaji": "wa",
+   "group": "basic",
+   "partner": "わ",
+   "look_alike": [
+    "ウ",
+    "フ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ワイン",
+     "romaji": "wain",
+     "meaning": "wine"
+    },
+    {
+     "word": "ワイファイ",
+     "romaji": "waifai",
+     "meaning": "Wi-Fi"
+    }
+   ]
+  },
+  {
+   "id": "kata-wo",
+   "front": "ヲ",
+   "romaji": "o",
+   "group": "basic",
+   "partner": "を",
+   "look_alike": [],
+   "note": "Rarely used in katakana",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-n",
+   "front": "ン",
+   "romaji": "n",
+   "group": "basic",
+   "partner": "ん",
+   "look_alike": [
+    "ソ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "パン",
+     "romaji": "pan",
+     "meaning": "bread"
+    },
+    {
+     "word": "ワイン",
+     "romaji": "wain",
+     "meaning": "wine"
+    }
+   ]
+  },
+  {
+   "id": "kata-ga",
+   "front": "ガ",
+   "romaji": "ga",
+   "group": "dakuten",
+   "partner": "が",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ガイド",
+     "romaji": "gaido",
+     "meaning": "guide"
+    },
+    {
+     "word": "ガム",
+     "romaji": "gamu",
+     "meaning": "chewing gum"
+    }
+   ]
+  },
+  {
+   "id": "kata-gi",
+   "front": "ギ",
+   "romaji": "gi",
+   "group": "dakuten",
+   "partner": "ぎ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ギター",
+     "romaji": "gitaa",
+     "meaning": "guitar"
+    }
+   ]
+  },
+  {
+   "id": "kata-gu",
+   "front": "グ",
+   "romaji": "gu",
+   "group": "dakuten",
+   "partner": "ぐ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "グラス",
+     "romaji": "gurasu",
+     "meaning": "glass"
+    }
+   ]
+  },
+  {
+   "id": "kata-ge",
+   "front": "ゲ",
+   "romaji": "ge",
+   "group": "dakuten",
+   "partner": "げ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ゲーム",
+     "romaji": "geemu",
+     "meaning": "game"
+    }
+   ]
+  },
+  {
+   "id": "kata-go",
+   "front": "ゴ",
+   "romaji": "go",
+   "group": "dakuten",
+   "partner": "ご",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ゴミ",
+     "romaji": "gomi",
+     "meaning": "rubbish, trash"
+    }
+   ]
+  },
+  {
+   "id": "kata-za",
+   "front": "ザ",
+   "romaji": "za",
+   "group": "dakuten",
+   "partner": "ざ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ピザ",
+     "romaji": "piza",
+     "meaning": "pizza"
+    }
+   ]
+  },
+  {
+   "id": "kata-ji",
+   "front": "ジ",
+   "romaji": "ji",
+   "group": "dakuten",
+   "partner": "じ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "レジ",
+     "romaji": "reji",
+     "meaning": "cash register"
+    },
+    {
+     "word": "ジュース",
+     "romaji": "juusu",
+     "meaning": "juice"
+    }
+   ]
+  },
+  {
+   "id": "kata-zu",
+   "front": "ズ",
+   "romaji": "zu",
+   "group": "dakuten",
+   "partner": "ず",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "チーズ",
+     "romaji": "chiizu",
+     "meaning": "cheese"
+    },
+    {
+     "word": "サイズ",
+     "romaji": "saizu",
+     "meaning": "size"
+    }
+   ]
+  },
+  {
+   "id": "kata-ze",
+   "front": "ゼ",
+   "romaji": "ze",
+   "group": "dakuten",
+   "partner": "ぜ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ゼロ",
+     "romaji": "zero",
+     "meaning": "zero"
+    }
+   ]
+  },
+  {
+   "id": "kata-zo",
+   "front": "ゾ",
+   "romaji": "zo",
+   "group": "dakuten",
+   "partner": "ぞ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ゾーン",
+     "romaji": "zoon",
+     "meaning": "zone"
+    }
+   ]
+  },
+  {
+   "id": "kata-da",
+   "front": "ダ",
+   "romaji": "da",
+   "group": "dakuten",
+   "partner": "だ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "サラダ",
+     "romaji": "sarada",
+     "meaning": "salad"
+    },
+    {
+     "word": "ダイヤ",
+     "romaji": "daiya",
+     "meaning": "train timetable"
+    }
+   ]
+  },
+  {
+   "id": "kata-di",
+   "front": "ヂ",
+   "romaji": "ji",
+   "group": "dakuten",
+   "partner": "ぢ",
+   "look_alike": [],
+   "note": "Rarely used; ジ is the usual spelling",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-du",
+   "front": "ヅ",
+   "romaji": "zu",
+   "group": "dakuten",
+   "partner": "づ",
+   "look_alike": [],
+   "note": "Rarely used; ズ is the usual spelling",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-de",
+   "front": "デ",
+   "romaji": "de",
+   "group": "dakuten",
+   "partner": "で",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "デパート",
+     "romaji": "depaato",
+     "meaning": "department store"
+    }
+   ]
+  },
+  {
+   "id": "kata-do",
+   "front": "ド",
+   "romaji": "do",
+   "group": "dakuten",
+   "partner": "ど",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ドア",
+     "romaji": "doa",
+     "meaning": "door"
+    },
+    {
+     "word": "ドリンク",
+     "romaji": "dorinku",
+     "meaning": "drink"
+    }
+   ]
+  },
+  {
+   "id": "kata-ba",
+   "front": "バ",
+   "romaji": "ba",
+   "group": "dakuten",
+   "partner": "ば",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "バス",
+     "romaji": "basu",
+     "meaning": "bus"
+    },
+    {
+     "word": "バナナ",
+     "romaji": "banana",
+     "meaning": "banana"
+    }
+   ]
+  },
+  {
+   "id": "kata-bi",
+   "front": "ビ",
+   "romaji": "bi",
+   "group": "dakuten",
+   "partner": "び",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ビール",
+     "romaji": "biiru",
+     "meaning": "beer"
+    }
+   ]
+  },
+  {
+   "id": "kata-bu",
+   "front": "ブ",
+   "romaji": "bu",
+   "group": "dakuten",
+   "partner": "ぶ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "テーブル",
+     "romaji": "teeburu",
+     "meaning": "table"
+    }
+   ]
+  },
+  {
+   "id": "kata-be",
+   "front": "ベ",
+   "romaji": "be",
+   "group": "dakuten",
+   "partner": "べ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ベッド",
+     "romaji": "beddo",
+     "meaning": "bed"
+    }
+   ]
+  },
+  {
+   "id": "kata-bo",
+   "front": "ボ",
+   "romaji": "bo",
+   "group": "dakuten",
+   "partner": "ぼ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ボタン",
+     "romaji": "botan",
+     "meaning": "button"
+    }
+   ]
+  },
+  {
+   "id": "kata-pa",
+   "front": "パ",
+   "romaji": "pa",
+   "group": "dakuten",
+   "partner": "ぱ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "パン",
+     "romaji": "pan",
+     "meaning": "bread"
+    },
+    {
+     "word": "パスポート",
+     "romaji": "pasupooto",
+     "meaning": "passport"
+    }
+   ]
+  },
+  {
+   "id": "kata-pi",
+   "front": "ピ",
+   "romaji": "pi",
+   "group": "dakuten",
+   "partner": "ぴ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ピザ",
+     "romaji": "piza",
+     "meaning": "pizza"
+    }
+   ]
+  },
+  {
+   "id": "kata-pu",
+   "front": "プ",
+   "romaji": "pu",
+   "group": "dakuten",
+   "partner": "ぷ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "スープ",
+     "romaji": "suupu",
+     "meaning": "soup"
+    }
+   ]
+  },
+  {
+   "id": "kata-pe",
+   "front": "ペ",
+   "romaji": "pe",
+   "group": "dakuten",
+   "partner": "ぺ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ペン",
+     "romaji": "pen",
+     "meaning": "pen"
+    }
+   ]
+  },
+  {
+   "id": "kata-po",
+   "front": "ポ",
+   "romaji": "po",
+   "group": "dakuten",
+   "partner": "ぽ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ポテト",
+     "romaji": "poteto",
+     "meaning": "fries, potato"
+    },
+    {
+     "word": "パスポート",
+     "romaji": "pasupooto",
+     "meaning": "passport"
+    }
+   ]
+  },
+  {
+   "id": "kata-kya",
+   "front": "キャ",
+   "romaji": "kya",
+   "group": "combo",
+   "partner": "きゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "キャンセル",
+     "romaji": "kyanseru",
+     "meaning": "cancel"
+    }
+   ]
+  },
+  {
+   "id": "kata-kyu",
+   "front": "キュ",
+   "romaji": "kyu",
+   "group": "combo",
+   "partner": "きゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "バーベキュー",
+     "romaji": "baabekyuu",
+     "meaning": "barbecue"
+    }
+   ]
+  },
+  {
+   "id": "kata-kyo",
+   "front": "キョ",
+   "romaji": "kyo",
+   "group": "combo",
+   "partner": "きょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-sha",
+   "front": "シャ",
+   "romaji": "sha",
+   "group": "combo",
+   "partner": "しゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "シャワー",
+     "romaji": "shawaa",
+     "meaning": "shower"
+    },
+    {
+     "word": "シャツ",
+     "romaji": "shatsu",
+     "meaning": "shirt"
+    }
+   ]
+  },
+  {
+   "id": "kata-shu",
+   "front": "シュ",
+   "romaji": "shu",
+   "group": "combo",
+   "partner": "しゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "シュークリーム",
+     "romaji": "shuukuriimu",
+     "meaning": "cream puff"
+    }
+   ]
+  },
+  {
+   "id": "kata-sho",
+   "front": "ショ",
+   "romaji": "sho",
+   "group": "combo",
+   "partner": "しょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ショッピング",
+     "romaji": "shoppingu",
+     "meaning": "shopping"
+    }
+   ]
+  },
+  {
+   "id": "kata-cha",
+   "front": "チャ",
+   "romaji": "cha",
+   "group": "combo",
+   "partner": "ちゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "チャージ",
+     "romaji": "chaaji",
+     "meaning": "top up (IC card)"
+    }
+   ]
+  },
+  {
+   "id": "kata-chu",
+   "front": "チュ",
+   "romaji": "chu",
+   "group": "combo",
+   "partner": "ちゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "チューハイ",
+     "romaji": "chuuhai",
+     "meaning": "shochu highball"
+    }
+   ]
+  },
+  {
+   "id": "kata-cho",
+   "front": "チョ",
+   "romaji": "cho",
+   "group": "combo",
+   "partner": "ちょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "チョコレート",
+     "romaji": "chokoreeto",
+     "meaning": "chocolate"
+    }
+   ]
+  },
+  {
+   "id": "kata-nya",
+   "front": "ニャ",
+   "romaji": "nya",
+   "group": "combo",
+   "partner": "にゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-nyu",
+   "front": "ニュ",
+   "romaji": "nyu",
+   "group": "combo",
+   "partner": "にゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "メニュー",
+     "romaji": "menyuu",
+     "meaning": "menu"
+    },
+    {
+     "word": "ニュース",
+     "romaji": "nyuusu",
+     "meaning": "news"
+    }
+   ]
+  },
+  {
+   "id": "kata-nyo",
+   "front": "ニョ",
+   "romaji": "nyo",
+   "group": "combo",
+   "partner": "にょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-hya",
+   "front": "ヒャ",
+   "romaji": "hya",
+   "group": "combo",
+   "partner": "ひゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-hyu",
+   "front": "ヒュ",
+   "romaji": "hyu",
+   "group": "combo",
+   "partner": "ひゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-hyo",
+   "front": "ヒョ",
+   "romaji": "hyo",
+   "group": "combo",
+   "partner": "ひょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-mya",
+   "front": "ミャ",
+   "romaji": "mya",
+   "group": "combo",
+   "partner": "みゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-myu",
+   "front": "ミュ",
+   "romaji": "myu",
+   "group": "combo",
+   "partner": "みゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ミュージアム",
+     "romaji": "myuujiamu",
+     "meaning": "museum"
+    }
+   ]
+  },
+  {
+   "id": "kata-myo",
+   "front": "ミョ",
+   "romaji": "myo",
+   "group": "combo",
+   "partner": "みょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-rya",
+   "front": "リャ",
+   "romaji": "rya",
+   "group": "combo",
+   "partner": "りゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-ryu",
+   "front": "リュ",
+   "romaji": "ryu",
+   "group": "combo",
+   "partner": "りゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "リュック",
+     "romaji": "ryukku",
+     "meaning": "backpack"
+    }
+   ]
+  },
+  {
+   "id": "kata-ryo",
+   "front": "リョ",
+   "romaji": "ryo",
+   "group": "combo",
+   "partner": "りょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-gya",
+   "front": "ギャ",
+   "romaji": "gya",
+   "group": "combo",
+   "partner": "ぎゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ギャラリー",
+     "romaji": "gyararii",
+     "meaning": "gallery"
+    }
+   ]
+  },
+  {
+   "id": "kata-gyu",
+   "front": "ギュ",
+   "romaji": "gyu",
+   "group": "combo",
+   "partner": "ぎゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-gyo",
+   "front": "ギョ",
+   "romaji": "gyo",
+   "group": "combo",
+   "partner": "ぎょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-ja",
+   "front": "ジャ",
+   "romaji": "ja",
+   "group": "combo",
+   "partner": "じゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ジャケット",
+     "romaji": "jaketto",
+     "meaning": "jacket"
+    },
+    {
+     "word": "ジャム",
+     "romaji": "jamu",
+     "meaning": "jam"
+    }
+   ]
+  },
+  {
+   "id": "kata-ju",
+   "front": "ジュ",
+   "romaji": "ju",
+   "group": "combo",
+   "partner": "じゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ジュース",
+     "romaji": "juusu",
+     "meaning": "juice"
+    }
+   ]
+  },
+  {
+   "id": "kata-jo",
+   "front": "ジョ",
+   "romaji": "jo",
+   "group": "combo",
+   "partner": "じょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ジョギング",
+     "romaji": "jogingu",
+     "meaning": "jogging"
+    }
+   ]
+  },
+  {
+   "id": "kata-bya",
+   "front": "ビャ",
+   "romaji": "bya",
+   "group": "combo",
+   "partner": "びゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-byu",
+   "front": "ビュ",
+   "romaji": "byu",
+   "group": "combo",
+   "partner": "びゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ビュッフェ",
+     "romaji": "byuffe",
+     "meaning": "buffet"
+    }
+   ]
+  },
+  {
+   "id": "kata-byo",
+   "front": "ビョ",
+   "romaji": "byo",
+   "group": "combo",
+   "partner": "びょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-pya",
+   "front": "ピャ",
+   "romaji": "pya",
+   "group": "combo",
+   "partner": "ぴゃ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-pyu",
+   "front": "ピュ",
+   "romaji": "pyu",
+   "group": "combo",
+   "partner": "ぴゅ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "kata-pyo",
+   "front": "ピョ",
+   "romaji": "pyo",
+   "group": "combo",
+   "partner": "ぴょ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  }
+ ]
+}

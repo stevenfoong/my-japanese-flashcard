@@ -1,0 +1,78 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-apk
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Generate Android project files
+        run: |
+          flutter create --org com.stevenfoong --project-name kana_cards --platforms android .
+          python3 tools/patch_android.py
+
+      - name: Use the shared test signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.TEST_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            mkdir -p ~/.android
+            echo "$KEYSTORE_B64" | base64 -d > ~/.android/debug.keystore
+            echo "Signing with the shared test key"
+          else
+            echo "::warning::TEST_KEYSTORE_B64 secret is not set. This APK uses a one-off key, so uninstall the old app before installing it."
+          fi
+
+      - run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Test
+        run: flutter test
+
+      - name: Build APK
+        run: |
+          flutter build apk --release --split-per-abi \
+            --build-number=${{ github.run_number }} \
+            --dart-define=BUILD_NUMBER=${{ github.run_number }}
+          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk kana-cards.apk
+          cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk kana-cards-older-phones.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kana-cards-build-${{ github.run_number }}
+          path: kana-cards*.apk
+
+      - name: Publish to the "latest-build" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest-build --cleanup-tag --yes || true
+          gh release create latest-build kana-cards.apk kana-cards-older-phones.apk \
+            --prerelease \
+            --target "$GITHUB_SHA" \
+            --title "Latest build #${{ github.run_number }}" \
+            --notes "Built from ${GITHUB_SHA::7}. On your phone, download kana-cards.apk and open it. Use kana-cards-older-phones.apk only if the first one will not install."

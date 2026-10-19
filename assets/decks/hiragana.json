@@ -1,0 +1,2193 @@
+{
+ "deck": "hiragana",
+ "title": "Hiragana",
+ "version": 1,
+ "cards": [
+  {
+   "id": "hira-a",
+   "front": "あ",
+   "romaji": "a",
+   "group": "basic",
+   "partner": "ア",
+   "look_alike": [
+    "お",
+    "め"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "あさ",
+     "romaji": "asa",
+     "meaning": "morning"
+    },
+    {
+     "word": "あめ",
+     "romaji": "ame",
+     "meaning": "rain"
+    }
+   ]
+  },
+  {
+   "id": "hira-i",
+   "front": "い",
+   "romaji": "i",
+   "group": "basic",
+   "partner": "イ",
+   "look_alike": [
+    "り",
+    "こ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "いぬ",
+     "romaji": "inu",
+     "meaning": "dog"
+    },
+    {
+     "word": "いえ",
+     "romaji": "ie",
+     "meaning": "house"
+    }
+   ]
+  },
+  {
+   "id": "hira-u",
+   "front": "う",
+   "romaji": "u",
+   "group": "basic",
+   "partner": "ウ",
+   "look_alike": [
+    "ら",
+    "つ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "うみ",
+     "romaji": "umi",
+     "meaning": "sea"
+    },
+    {
+     "word": "うえ",
+     "romaji": "ue",
+     "meaning": "up, above"
+    }
+   ]
+  },
+  {
+   "id": "hira-e",
+   "front": "え",
+   "romaji": "e",
+   "group": "basic",
+   "partner": "エ",
+   "look_alike": [
+    "ん"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "えき",
+     "romaji": "eki",
+     "meaning": "station"
+    },
+    {
+     "word": "えいが",
+     "romaji": "eiga",
+     "meaning": "movie"
+    }
+   ]
+  },
+  {
+   "id": "hira-o",
+   "front": "お",
+   "romaji": "o",
+   "group": "basic",
+   "partner": "オ",
+   "look_alike": [
+    "あ",
+    "む"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "おちゃ",
+     "romaji": "ocha",
+     "meaning": "tea"
+    },
+    {
+     "word": "おかね",
+     "romaji": "okane",
+     "meaning": "money"
+    }
+   ]
+  },
+  {
+   "id": "hira-ka",
+   "front": "か",
+   "romaji": "ka",
+   "group": "basic",
+   "partner": "カ",
+   "look_alike": [
+    "や"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "かさ",
+     "romaji": "kasa",
+     "meaning": "umbrella"
+    },
+    {
+     "word": "さかな",
+     "romaji": "sakana",
+     "meaning": "fish"
+    }
+   ]
+  },
+  {
+   "id": "hira-ki",
+   "front": "き",
+   "romaji": "ki",
+   "group": "basic",
+   "partner": "キ",
+   "look_alike": [
+    "さ",
+    "ま"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "きっぷ",
+     "romaji": "kippu",
+     "meaning": "ticket"
+    },
+    {
+     "word": "きた",
+     "romaji": "kita",
+     "meaning": "north"
+    }
+   ]
+  },
+  {
+   "id": "hira-ku",
+   "front": "く",
+   "romaji": "ku",
+   "group": "basic",
+   "partner": "ク",
+   "look_alike": [
+    "へ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "くすり",
+     "romaji": "kusuri",
+     "meaning": "medicine"
+    },
+    {
+     "word": "くるま",
+     "romaji": "kuruma",
+     "meaning": "car"
+    }
+   ]
+  },
+  {
+   "id": "hira-ke",
+   "front": "け",
+   "romaji": "ke",
+   "group": "basic",
+   "partner": "ケ",
+   "look_alike": [
+    "は",
+    "ほ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "いけ",
+     "romaji": "ike",
+     "meaning": "pond"
+    },
+    {
+     "word": "さけ",
+     "romaji": "sake",
+     "meaning": "rice wine; salmon"
+    }
+   ]
+  },
+  {
+   "id": "hira-ko",
+   "front": "こ",
+   "romaji": "ko",
+   "group": "basic",
+   "partner": "コ",
+   "look_alike": [
+    "い",
+    "に"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ここ",
+     "romaji": "koko",
+     "meaning": "here"
+    },
+    {
+     "word": "こめ",
+     "romaji": "kome",
+     "meaning": "rice (uncooked)"
+    }
+   ]
+  },
+  {
+   "id": "hira-sa",
+   "front": "さ",
+   "romaji": "sa",
+   "group": "basic",
+   "partner": "サ",
+   "look_alike": [
+    "ち",
+    "き"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "さかな",
+     "romaji": "sakana",
+     "meaning": "fish"
+    },
+    {
+     "word": "さくら",
+     "romaji": "sakura",
+     "meaning": "cherry blossom"
+    }
+   ]
+  },
+  {
+   "id": "hira-shi",
+   "front": "し",
+   "romaji": "shi",
+   "group": "basic",
+   "partner": "シ",
+   "look_alike": [
+    "つ",
+    "も"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "しお",
+     "romaji": "shio",
+     "meaning": "salt"
+    },
+    {
+     "word": "すし",
+     "romaji": "sushi",
+     "meaning": "sushi"
+    }
+   ]
+  },
+  {
+   "id": "hira-su",
+   "front": "す",
+   "romaji": "su",
+   "group": "basic",
+   "partner": "ス",
+   "look_alike": [
+    "む",
+    "お"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "すし",
+     "romaji": "sushi",
+     "meaning": "sushi"
+    },
+    {
+     "word": "すいか",
+     "romaji": "suika",
+     "meaning": "watermelon"
+    }
+   ]
+  },
+  {
+   "id": "hira-se",
+   "front": "せ",
+   "romaji": "se",
+   "group": "basic",
+   "partner": "セ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "せき",
+     "romaji": "seki",
+     "meaning": "seat"
+    },
+    {
+     "word": "みせ",
+     "romaji": "mise",
+     "meaning": "shop"
+    }
+   ]
+  },
+  {
+   "id": "hira-so",
+   "front": "そ",
+   "romaji": "so",
+   "group": "basic",
+   "partner": "ソ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "そば",
+     "romaji": "soba",
+     "meaning": "buckwheat noodles"
+    },
+    {
+     "word": "みそ",
+     "romaji": "miso",
+     "meaning": "miso"
+    }
+   ]
+  },
+  {
+   "id": "hira-ta",
+   "front": "た",
+   "romaji": "ta",
+   "group": "basic",
+   "partner": "タ",
+   "look_alike": [
+    "な",
+    "に"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "たまご",
+     "romaji": "tamago",
+     "meaning": "egg"
+    },
+    {
+     "word": "きた",
+     "romaji": "kita",
+     "meaning": "north"
+    }
+   ]
+  },
+  {
+   "id": "hira-chi",
+   "front": "ち",
+   "romaji": "chi",
+   "group": "basic",
+   "partner": "チ",
+   "look_alike": [
+    "さ",
+    "ら"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ちず",
+     "romaji": "chizu",
+     "meaning": "map"
+    },
+    {
+     "word": "くち",
+     "romaji": "kuchi",
+     "meaning": "mouth"
+    }
+   ]
+  },
+  {
+   "id": "hira-tsu",
+   "front": "つ",
+   "romaji": "tsu",
+   "group": "basic",
+   "partner": "ツ",
+   "look_alike": [
+    "し",
+    "う"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "なつ",
+     "romaji": "natsu",
+     "meaning": "summer"
+    },
+    {
+     "word": "つくえ",
+     "romaji": "tsukue",
+     "meaning": "desk"
+    }
+   ]
+  },
+  {
+   "id": "hira-te",
+   "front": "て",
+   "romaji": "te",
+   "group": "basic",
+   "partner": "テ",
+   "look_alike": [
+    "そ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "て",
+     "romaji": "te",
+     "meaning": "hand"
+    },
+    {
+     "word": "てがみ",
+     "romaji": "tegami",
+     "meaning": "letter"
+    }
+   ]
+  },
+  {
+   "id": "hira-to",
+   "front": "と",
+   "romaji": "to",
+   "group": "basic",
+   "partner": "ト",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "とり",
+     "romaji": "tori",
+     "meaning": "bird; chicken"
+    },
+    {
+     "word": "ひと",
+     "romaji": "hito",
+     "meaning": "person"
+    }
+   ]
+  },
+  {
+   "id": "hira-na",
+   "front": "な",
+   "romaji": "na",
+   "group": "basic",
+   "partner": "ナ",
+   "look_alike": [
+    "た"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "なまえ",
+     "romaji": "namae",
+     "meaning": "name"
+    },
+    {
+     "word": "さかな",
+     "romaji": "sakana",
+     "meaning": "fish"
+    }
+   ]
+  },
+  {
+   "id": "hira-ni",
+   "front": "に",
+   "romaji": "ni",
+   "group": "basic",
+   "partner": "ニ",
+   "look_alike": [
+    "こ",
+    "た"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "にく",
+     "romaji": "niku",
+     "meaning": "meat"
+    },
+    {
+     "word": "にし",
+     "romaji": "nishi",
+     "meaning": "west"
+    }
+   ]
+  },
+  {
+   "id": "hira-nu",
+   "front": "ぬ",
+   "romaji": "nu",
+   "group": "basic",
+   "partner": "ヌ",
+   "look_alike": [
+    "め",
+    "の"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "いぬ",
+     "romaji": "inu",
+     "meaning": "dog"
+    },
+    {
+     "word": "ぬの",
+     "romaji": "nuno",
+     "meaning": "cloth"
+    }
+   ]
+  },
+  {
+   "id": "hira-ne",
+   "front": "ね",
+   "romaji": "ne",
+   "group": "basic",
+   "partner": "ネ",
+   "look_alike": [
+    "れ",
+    "わ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ねこ",
+     "romaji": "neko",
+     "meaning": "cat"
+    },
+    {
+     "word": "おかね",
+     "romaji": "okane",
+     "meaning": "money"
+    },
+    {
+     "word": "ふね",
+     "romaji": "fune",
+     "meaning": "ship"
+    }
+   ]
+  },
+  {
+   "id": "hira-no",
+   "front": "の",
+   "romaji": "no",
+   "group": "basic",
+   "partner": "ノ",
+   "look_alike": [
+    "め",
+    "ぬ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "のみもの",
+     "romaji": "nomimono",
+     "meaning": "drink"
+    },
+    {
+     "word": "きのこ",
+     "romaji": "kinoko",
+     "meaning": "mushroom"
+    }
+   ]
+  },
+  {
+   "id": "hira-ha",
+   "front": "は",
+   "romaji": "ha",
+   "group": "basic",
+   "partner": "ハ",
+   "look_alike": [
+    "ほ",
+    "け"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "はし",
+     "romaji": "hashi",
+     "meaning": "chopsticks"
+    },
+    {
+     "word": "はな",
+     "romaji": "hana",
+     "meaning": "flower"
+    }
+   ]
+  },
+  {
+   "id": "hira-hi",
+   "front": "ひ",
+   "romaji": "hi",
+   "group": "basic",
+   "partner": "ヒ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ひと",
+     "romaji": "hito",
+     "meaning": "person"
+    },
+    {
+     "word": "ひがし",
+     "romaji": "higashi",
+     "meaning": "east"
+    }
+   ]
+  },
+  {
+   "id": "hira-fu",
+   "front": "ふ",
+   "romaji": "fu",
+   "group": "basic",
+   "partner": "フ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ふね",
+     "romaji": "fune",
+     "meaning": "ship"
+    },
+    {
+     "word": "ふゆ",
+     "romaji": "fuyu",
+     "meaning": "winter"
+    }
+   ]
+  },
+  {
+   "id": "hira-he",
+   "front": "へ",
+   "romaji": "he",
+   "group": "basic",
+   "partner": "ヘ",
+   "look_alike": [
+    "く"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "へや",
+     "romaji": "heya",
+     "meaning": "room"
+    },
+    {
+     "word": "へび",
+     "romaji": "hebi",
+     "meaning": "snake"
+    }
+   ]
+  },
+  {
+   "id": "hira-ho",
+   "front": "ほ",
+   "romaji": "ho",
+   "group": "basic",
+   "partner": "ホ",
+   "look_alike": [
+    "は",
+    "ま"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ほん",
+     "romaji": "hon",
+     "meaning": "book"
+    },
+    {
+     "word": "ほし",
+     "romaji": "hoshi",
+     "meaning": "star"
+    }
+   ]
+  },
+  {
+   "id": "hira-ma",
+   "front": "ま",
+   "romaji": "ma",
+   "group": "basic",
+   "partner": "マ",
+   "look_alike": [
+    "も",
+    "ほ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "まち",
+     "romaji": "machi",
+     "meaning": "town"
+    },
+    {
+     "word": "まど",
+     "romaji": "mado",
+     "meaning": "window"
+    }
+   ]
+  },
+  {
+   "id": "hira-mi",
+   "front": "み",
+   "romaji": "mi",
+   "group": "basic",
+   "partner": "ミ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "みず",
+     "romaji": "mizu",
+     "meaning": "water"
+    },
+    {
+     "word": "みせ",
+     "romaji": "mise",
+     "meaning": "shop"
+    }
+   ]
+  },
+  {
+   "id": "hira-mu",
+   "front": "む",
+   "romaji": "mu",
+   "group": "basic",
+   "partner": "ム",
+   "look_alike": [
+    "す",
+    "お"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "むし",
+     "romaji": "mushi",
+     "meaning": "insect"
+    },
+    {
+     "word": "むら",
+     "romaji": "mura",
+     "meaning": "village"
+    }
+   ]
+  },
+  {
+   "id": "hira-me",
+   "front": "め",
+   "romaji": "me",
+   "group": "basic",
+   "partner": "メ",
+   "look_alike": [
+    "ぬ",
+    "あ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "あめ",
+     "romaji": "ame",
+     "meaning": "rain"
+    },
+    {
+     "word": "めがね",
+     "romaji": "megane",
+     "meaning": "glasses"
+    }
+   ]
+  },
+  {
+   "id": "hira-mo",
+   "front": "も",
+   "romaji": "mo",
+   "group": "basic",
+   "partner": "モ",
+   "look_alike": [
+    "し",
+    "ま"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "もも",
+     "romaji": "momo",
+     "meaning": "peach"
+    },
+    {
+     "word": "もの",
+     "romaji": "mono",
+     "meaning": "thing"
+    }
+   ]
+  },
+  {
+   "id": "hira-ya",
+   "front": "や",
+   "romaji": "ya",
+   "group": "basic",
+   "partner": "ヤ",
+   "look_alike": [
+    "か"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "やま",
+     "romaji": "yama",
+     "meaning": "mountain"
+    },
+    {
+     "word": "やさい",
+     "romaji": "yasai",
+     "meaning": "vegetables"
+    }
+   ]
+  },
+  {
+   "id": "hira-yu",
+   "front": "ゆ",
+   "romaji": "yu",
+   "group": "basic",
+   "partner": "ユ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ゆ",
+     "romaji": "yu",
+     "meaning": "hot water (onsen sign)"
+    },
+    {
+     "word": "ゆき",
+     "romaji": "yuki",
+     "meaning": "snow"
+    }
+   ]
+  },
+  {
+   "id": "hira-yo",
+   "front": "よ",
+   "romaji": "yo",
+   "group": "basic",
+   "partner": "ヨ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "よる",
+     "romaji": "yoru",
+     "meaning": "night"
+    },
+    {
+     "word": "よこ",
+     "romaji": "yoko",
+     "meaning": "side"
+    }
+   ]
+  },
+  {
+   "id": "hira-ra",
+   "front": "ら",
+   "romaji": "ra",
+   "group": "basic",
+   "partner": "ラ",
+   "look_alike": [
+    "う",
+    "ち"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "さくら",
+     "romaji": "sakura",
+     "meaning": "cherry blossom"
+    },
+    {
+     "word": "らいねん",
+     "romaji": "rainen",
+     "meaning": "next year"
+    }
+   ]
+  },
+  {
+   "id": "hira-ri",
+   "front": "り",
+   "romaji": "ri",
+   "group": "basic",
+   "partner": "リ",
+   "look_alike": [
+    "い"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "りんご",
+     "romaji": "ringo",
+     "meaning": "apple"
+    },
+    {
+     "word": "とり",
+     "romaji": "tori",
+     "meaning": "bird; chicken"
+    }
+   ]
+  },
+  {
+   "id": "hira-ru",
+   "front": "る",
+   "romaji": "ru",
+   "group": "basic",
+   "partner": "ル",
+   "look_alike": [
+    "ろ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "くるま",
+     "romaji": "kuruma",
+     "meaning": "car"
+    },
+    {
+     "word": "よる",
+     "romaji": "yoru",
+     "meaning": "night"
+    }
+   ]
+  },
+  {
+   "id": "hira-re",
+   "front": "れ",
+   "romaji": "re",
+   "group": "basic",
+   "partner": "レ",
+   "look_alike": [
+    "ね",
+    "わ"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "これ",
+     "romaji": "kore",
+     "meaning": "this"
+    },
+    {
+     "word": "れいぞうこ",
+     "romaji": "reizouko",
+     "meaning": "fridge"
+    }
+   ]
+  },
+  {
+   "id": "hira-ro",
+   "front": "ろ",
+   "romaji": "ro",
+   "group": "basic",
+   "partner": "ロ",
+   "look_alike": [
+    "る"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "しろ",
+     "romaji": "shiro",
+     "meaning": "white; castle"
+    },
+    {
+     "word": "ろく",
+     "romaji": "roku",
+     "meaning": "six"
+    }
+   ]
+  },
+  {
+   "id": "hira-wa",
+   "front": "わ",
+   "romaji": "wa",
+   "group": "basic",
+   "partner": "ワ",
+   "look_alike": [
+    "れ",
+    "ね"
+   ],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "わさび",
+     "romaji": "wasabi",
+     "meaning": "wasabi"
+    },
+    {
+     "word": "わたし",
+     "romaji": "watashi",
+     "meaning": "I, me"
+    }
+   ]
+  },
+  {
+   "id": "hira-wo",
+   "front": "を",
+   "romaji": "o",
+   "group": "basic",
+   "partner": "ヲ",
+   "look_alike": [],
+   "note": "Sounds like お. Used as a grammar particle",
+   "audio": null,
+   "examples": [
+    {
+     "word": "みずをください",
+     "romaji": "mizu o kudasai",
+     "meaning": "Water, please"
+    }
+   ]
+  },
+  {
+   "id": "hira-n",
+   "front": "ん",
+   "romaji": "n",
+   "group": "basic",
+   "partner": "ン",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ほん",
+     "romaji": "hon",
+     "meaning": "book"
+    },
+    {
+     "word": "みかん",
+     "romaji": "mikan",
+     "meaning": "mandarin orange"
+    }
+   ]
+  },
+  {
+   "id": "hira-ga",
+   "front": "が",
+   "romaji": "ga",
+   "group": "dakuten",
+   "partner": "ガ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "がっこう",
+     "romaji": "gakkou",
+     "meaning": "school"
+    },
+    {
+     "word": "ながい",
+     "romaji": "nagai",
+     "meaning": "long"
+    }
+   ]
+  },
+  {
+   "id": "hira-gi",
+   "front": "ぎ",
+   "romaji": "gi",
+   "group": "dakuten",
+   "partner": "ギ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぎんこう",
+     "romaji": "ginkou",
+     "meaning": "bank"
+    },
+    {
+     "word": "かぎ",
+     "romaji": "kagi",
+     "meaning": "key"
+    }
+   ]
+  },
+  {
+   "id": "hira-gu",
+   "front": "ぐ",
+   "romaji": "gu",
+   "group": "dakuten",
+   "partner": "グ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "かぐ",
+     "romaji": "kagu",
+     "meaning": "furniture"
+    }
+   ]
+  },
+  {
+   "id": "hira-ge",
+   "front": "げ",
+   "romaji": "ge",
+   "group": "dakuten",
+   "partner": "ゲ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "げんき",
+     "romaji": "genki",
+     "meaning": "healthy, fine"
+    },
+    {
+     "word": "かげ",
+     "romaji": "kage",
+     "meaning": "shadow"
+    }
+   ]
+  },
+  {
+   "id": "hira-go",
+   "front": "ご",
+   "romaji": "go",
+   "group": "dakuten",
+   "partner": "ゴ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ごはん",
+     "romaji": "gohan",
+     "meaning": "rice; meal"
+    },
+    {
+     "word": "たまご",
+     "romaji": "tamago",
+     "meaning": "egg"
+    }
+   ]
+  },
+  {
+   "id": "hira-za",
+   "front": "ざ",
+   "romaji": "za",
+   "group": "dakuten",
+   "partner": "ザ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ざぶとん",
+     "romaji": "zabuton",
+     "meaning": "floor cushion"
+    },
+    {
+     "word": "ひざ",
+     "romaji": "hiza",
+     "meaning": "knee"
+    }
+   ]
+  },
+  {
+   "id": "hira-ji",
+   "front": "じ",
+   "romaji": "ji",
+   "group": "dakuten",
+   "partner": "ジ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "じかん",
+     "romaji": "jikan",
+     "meaning": "time"
+    },
+    {
+     "word": "かじ",
+     "romaji": "kaji",
+     "meaning": "fire"
+    }
+   ]
+  },
+  {
+   "id": "hira-zu",
+   "front": "ず",
+   "romaji": "zu",
+   "group": "dakuten",
+   "partner": "ズ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "みず",
+     "romaji": "mizu",
+     "meaning": "water"
+    },
+    {
+     "word": "ちず",
+     "romaji": "chizu",
+     "meaning": "map"
+    }
+   ]
+  },
+  {
+   "id": "hira-ze",
+   "front": "ぜ",
+   "romaji": "ze",
+   "group": "dakuten",
+   "partner": "ゼ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぜんぶ",
+     "romaji": "zenbu",
+     "meaning": "all"
+    },
+    {
+     "word": "かぜ",
+     "romaji": "kaze",
+     "meaning": "wind; a cold"
+    }
+   ]
+  },
+  {
+   "id": "hira-zo",
+   "front": "ぞ",
+   "romaji": "zo",
+   "group": "dakuten",
+   "partner": "ゾ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぞう",
+     "romaji": "zou",
+     "meaning": "elephant"
+    },
+    {
+     "word": "れいぞうこ",
+     "romaji": "reizouko",
+     "meaning": "fridge"
+    }
+   ]
+  },
+  {
+   "id": "hira-da",
+   "front": "だ",
+   "romaji": "da",
+   "group": "dakuten",
+   "partner": "ダ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "だいがく",
+     "romaji": "daigaku",
+     "meaning": "university"
+    },
+    {
+     "word": "からだ",
+     "romaji": "karada",
+     "meaning": "body"
+    }
+   ]
+  },
+  {
+   "id": "hira-di",
+   "front": "ぢ",
+   "romaji": "ji",
+   "group": "dakuten",
+   "partner": "ヂ",
+   "look_alike": [],
+   "note": "Rare; sounds the same as じ",
+   "audio": null,
+   "examples": [
+    {
+     "word": "はなぢ",
+     "romaji": "hanaji",
+     "meaning": "nosebleed"
+    }
+   ]
+  },
+  {
+   "id": "hira-du",
+   "front": "づ",
+   "romaji": "zu",
+   "group": "dakuten",
+   "partner": "ヅ",
+   "look_alike": [],
+   "note": "Rare; sounds the same as ず",
+   "audio": null,
+   "examples": [
+    {
+     "word": "つづく",
+     "romaji": "tsuzuku",
+     "meaning": "to continue"
+    }
+   ]
+  },
+  {
+   "id": "hira-de",
+   "front": "で",
+   "romaji": "de",
+   "group": "dakuten",
+   "partner": "デ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "でぐち",
+     "romaji": "deguchi",
+     "meaning": "exit"
+    },
+    {
+     "word": "でんしゃ",
+     "romaji": "densha",
+     "meaning": "train"
+    }
+   ]
+  },
+  {
+   "id": "hira-do",
+   "front": "ど",
+   "romaji": "do",
+   "group": "dakuten",
+   "partner": "ド",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "どこ",
+     "romaji": "doko",
+     "meaning": "where"
+    },
+    {
+     "word": "まど",
+     "romaji": "mado",
+     "meaning": "window"
+    }
+   ]
+  },
+  {
+   "id": "hira-ba",
+   "front": "ば",
+   "romaji": "ba",
+   "group": "dakuten",
+   "partner": "バ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "そば",
+     "romaji": "soba",
+     "meaning": "buckwheat noodles"
+    },
+    {
+     "word": "ばんごう",
+     "romaji": "bangou",
+     "meaning": "number"
+    }
+   ]
+  },
+  {
+   "id": "hira-bi",
+   "front": "び",
+   "romaji": "bi",
+   "group": "dakuten",
+   "partner": "ビ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "えび",
+     "romaji": "ebi",
+     "meaning": "shrimp"
+    },
+    {
+     "word": "びょういん",
+     "romaji": "byouin",
+     "meaning": "hospital"
+    }
+   ]
+  },
+  {
+   "id": "hira-bu",
+   "front": "ぶ",
+   "romaji": "bu",
+   "group": "dakuten",
+   "partner": "ブ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぶどう",
+     "romaji": "budou",
+     "meaning": "grapes"
+    },
+    {
+     "word": "ぶたにく",
+     "romaji": "butaniku",
+     "meaning": "pork"
+    }
+   ]
+  },
+  {
+   "id": "hira-be",
+   "front": "べ",
+   "romaji": "be",
+   "group": "dakuten",
+   "partner": "ベ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "べんとう",
+     "romaji": "bentou",
+     "meaning": "boxed lunch"
+    },
+    {
+     "word": "たべもの",
+     "romaji": "tabemono",
+     "meaning": "food"
+    }
+   ]
+  },
+  {
+   "id": "hira-bo",
+   "front": "ぼ",
+   "romaji": "bo",
+   "group": "dakuten",
+   "partner": "ボ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぼうし",
+     "romaji": "boushi",
+     "meaning": "hat"
+    },
+    {
+     "word": "ごぼう",
+     "romaji": "gobou",
+     "meaning": "burdock root"
+    }
+   ]
+  },
+  {
+   "id": "hira-pa",
+   "front": "ぱ",
+   "romaji": "pa",
+   "group": "dakuten",
+   "partner": "パ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "かんぱい",
+     "romaji": "kanpai",
+     "meaning": "Cheers!"
+    },
+    {
+     "word": "いっぱい",
+     "romaji": "ippai",
+     "meaning": "full"
+    }
+   ]
+  },
+  {
+   "id": "hira-pi",
+   "front": "ぴ",
+   "romaji": "pi",
+   "group": "dakuten",
+   "partner": "ピ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "えんぴつ",
+     "romaji": "enpitsu",
+     "meaning": "pencil"
+    },
+    {
+     "word": "ぴかぴか",
+     "romaji": "pikapika",
+     "meaning": "shiny"
+    }
+   ]
+  },
+  {
+   "id": "hira-pu",
+   "front": "ぷ",
+   "romaji": "pu",
+   "group": "dakuten",
+   "partner": "プ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "てんぷら",
+     "romaji": "tenpura",
+     "meaning": "tempura"
+    },
+    {
+     "word": "きっぷ",
+     "romaji": "kippu",
+     "meaning": "ticket"
+    }
+   ]
+  },
+  {
+   "id": "hira-pe",
+   "front": "ぺ",
+   "romaji": "pe",
+   "group": "dakuten",
+   "partner": "ペ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぺこぺこ",
+     "romaji": "pekopeko",
+     "meaning": "starving"
+    }
+   ]
+  },
+  {
+   "id": "hira-po",
+   "front": "ぽ",
+   "romaji": "po",
+   "group": "dakuten",
+   "partner": "ポ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "さんぽ",
+     "romaji": "sanpo",
+     "meaning": "a walk"
+    },
+    {
+     "word": "しっぽ",
+     "romaji": "shippo",
+     "meaning": "tail"
+    }
+   ]
+  },
+  {
+   "id": "hira-kya",
+   "front": "きゃ",
+   "romaji": "kya",
+   "group": "combo",
+   "partner": "キャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "きゃく",
+     "romaji": "kyaku",
+     "meaning": "customer"
+    }
+   ]
+  },
+  {
+   "id": "hira-kyu",
+   "front": "きゅ",
+   "romaji": "kyu",
+   "group": "combo",
+   "partner": "キュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "きゅうり",
+     "romaji": "kyuuri",
+     "meaning": "cucumber"
+    }
+   ]
+  },
+  {
+   "id": "hira-kyo",
+   "front": "きょ",
+   "romaji": "kyo",
+   "group": "combo",
+   "partner": "キョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "きょう",
+     "romaji": "kyou",
+     "meaning": "today"
+    }
+   ]
+  },
+  {
+   "id": "hira-sha",
+   "front": "しゃ",
+   "romaji": "sha",
+   "group": "combo",
+   "partner": "シャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "でんしゃ",
+     "romaji": "densha",
+     "meaning": "train"
+    },
+    {
+     "word": "しゃしん",
+     "romaji": "shashin",
+     "meaning": "photo"
+    }
+   ]
+  },
+  {
+   "id": "hira-shu",
+   "front": "しゅ",
+   "romaji": "shu",
+   "group": "combo",
+   "partner": "シュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "しゅっぱつ",
+     "romaji": "shuppatsu",
+     "meaning": "departure"
+    }
+   ]
+  },
+  {
+   "id": "hira-sho",
+   "front": "しょ",
+   "romaji": "sho",
+   "group": "combo",
+   "partner": "ショ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "しょうゆ",
+     "romaji": "shouyu",
+     "meaning": "soy sauce"
+    }
+   ]
+  },
+  {
+   "id": "hira-cha",
+   "front": "ちゃ",
+   "romaji": "cha",
+   "group": "combo",
+   "partner": "チャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "おちゃ",
+     "romaji": "ocha",
+     "meaning": "tea"
+    }
+   ]
+  },
+  {
+   "id": "hira-chu",
+   "front": "ちゅ",
+   "romaji": "chu",
+   "group": "combo",
+   "partner": "チュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ちゅうもん",
+     "romaji": "chuumon",
+     "meaning": "order (at a restaurant)"
+    }
+   ]
+  },
+  {
+   "id": "hira-cho",
+   "front": "ちょ",
+   "romaji": "cho",
+   "group": "combo",
+   "partner": "チョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ちょっと",
+     "romaji": "chotto",
+     "meaning": "a little"
+    }
+   ]
+  },
+  {
+   "id": "hira-nya",
+   "front": "にゃ",
+   "romaji": "nya",
+   "group": "combo",
+   "partner": "ニャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "こんにゃく",
+     "romaji": "konnyaku",
+     "meaning": "konjac jelly"
+    }
+   ]
+  },
+  {
+   "id": "hira-nyu",
+   "front": "にゅ",
+   "romaji": "nyu",
+   "group": "combo",
+   "partner": "ニュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぎゅうにゅう",
+     "romaji": "gyuunyuu",
+     "meaning": "milk"
+    }
+   ]
+  },
+  {
+   "id": "hira-nyo",
+   "front": "にょ",
+   "romaji": "nyo",
+   "group": "combo",
+   "partner": "ニョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "hira-hya",
+   "front": "ひゃ",
+   "romaji": "hya",
+   "group": "combo",
+   "partner": "ヒャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ひゃく",
+     "romaji": "hyaku",
+     "meaning": "hundred"
+    }
+   ]
+  },
+  {
+   "id": "hira-hyu",
+   "front": "ひゅ",
+   "romaji": "hyu",
+   "group": "combo",
+   "partner": "ヒュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "hira-hyo",
+   "front": "ひょ",
+   "romaji": "hyo",
+   "group": "combo",
+   "partner": "ヒョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ひょう",
+     "romaji": "hyou",
+     "meaning": "table, chart"
+    }
+   ]
+  },
+  {
+   "id": "hira-mya",
+   "front": "みゃ",
+   "romaji": "mya",
+   "group": "combo",
+   "partner": "ミャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "みゃく",
+     "romaji": "myaku",
+     "meaning": "pulse"
+    }
+   ]
+  },
+  {
+   "id": "hira-myu",
+   "front": "みゅ",
+   "romaji": "myu",
+   "group": "combo",
+   "partner": "ミュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "hira-myo",
+   "front": "みょ",
+   "romaji": "myo",
+   "group": "combo",
+   "partner": "ミョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "みょうじ",
+     "romaji": "myouji",
+     "meaning": "surname"
+    }
+   ]
+  },
+  {
+   "id": "hira-rya",
+   "front": "りゃ",
+   "romaji": "rya",
+   "group": "combo",
+   "partner": "リャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "りゃくご",
+     "romaji": "ryakugo",
+     "meaning": "abbreviation"
+    }
+   ]
+  },
+  {
+   "id": "hira-ryu",
+   "front": "りゅ",
+   "romaji": "ryu",
+   "group": "combo",
+   "partner": "リュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "りゅうがく",
+     "romaji": "ryuugaku",
+     "meaning": "study abroad"
+    }
+   ]
+  },
+  {
+   "id": "hira-ryo",
+   "front": "りょ",
+   "romaji": "ryo",
+   "group": "combo",
+   "partner": "リョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "りょこう",
+     "romaji": "ryokou",
+     "meaning": "travel"
+    },
+    {
+     "word": "りょかん",
+     "romaji": "ryokan",
+     "meaning": "Japanese inn"
+    }
+   ]
+  },
+  {
+   "id": "hira-gya",
+   "front": "ぎゃ",
+   "romaji": "gya",
+   "group": "combo",
+   "partner": "ギャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぎゃく",
+     "romaji": "gyaku",
+     "meaning": "opposite"
+    }
+   ]
+  },
+  {
+   "id": "hira-gyu",
+   "front": "ぎゅ",
+   "romaji": "gyu",
+   "group": "combo",
+   "partner": "ギュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぎゅうどん",
+     "romaji": "gyuudon",
+     "meaning": "beef rice bowl"
+    },
+    {
+     "word": "ぎゅうにく",
+     "romaji": "gyuuniku",
+     "meaning": "beef"
+    }
+   ]
+  },
+  {
+   "id": "hira-gyo",
+   "front": "ぎょ",
+   "romaji": "gyo",
+   "group": "combo",
+   "partner": "ギョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "ぎょうざ",
+     "romaji": "gyouza",
+     "meaning": "dumplings"
+    }
+   ]
+  },
+  {
+   "id": "hira-ja",
+   "front": "じゃ",
+   "romaji": "ja",
+   "group": "combo",
+   "partner": "ジャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "じゃあね",
+     "romaji": "jaa ne",
+     "meaning": "See you!"
+    }
+   ]
+  },
+  {
+   "id": "hira-ju",
+   "front": "じゅ",
+   "romaji": "ju",
+   "group": "combo",
+   "partner": "ジュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "じゅうしょ",
+     "romaji": "juusho",
+     "meaning": "address"
+    }
+   ]
+  },
+  {
+   "id": "hira-jo",
+   "front": "じょ",
+   "romaji": "jo",
+   "group": "combo",
+   "partner": "ジョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "じょうしゃけん",
+     "romaji": "joushaken",
+     "meaning": "boarding ticket"
+    }
+   ]
+  },
+  {
+   "id": "hira-bya",
+   "front": "びゃ",
+   "romaji": "bya",
+   "group": "combo",
+   "partner": "ビャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "さんびゃく",
+     "romaji": "sanbyaku",
+     "meaning": "three hundred"
+    }
+   ]
+  },
+  {
+   "id": "hira-byu",
+   "front": "びゅ",
+   "romaji": "byu",
+   "group": "combo",
+   "partner": "ビュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "hira-byo",
+   "front": "びょ",
+   "romaji": "byo",
+   "group": "combo",
+   "partner": "ビョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "びょういん",
+     "romaji": "byouin",
+     "meaning": "hospital"
+    }
+   ]
+  },
+  {
+   "id": "hira-pya",
+   "front": "ぴゃ",
+   "romaji": "pya",
+   "group": "combo",
+   "partner": "ピャ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "はっぴゃく",
+     "romaji": "happyaku",
+     "meaning": "eight hundred"
+    }
+   ]
+  },
+  {
+   "id": "hira-pyu",
+   "front": "ぴゅ",
+   "romaji": "pyu",
+   "group": "combo",
+   "partner": "ピュ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": []
+  },
+  {
+   "id": "hira-pyo",
+   "front": "ぴょ",
+   "romaji": "pyo",
+   "group": "combo",
+   "partner": "ピョ",
+   "look_alike": [],
+   "note": "",
+   "audio": null,
+   "examples": [
+    {
+     "word": "はっぴょう",
+     "romaji": "happyou",
+     "meaning": "announcement"
+    }
+   ]
+  }
+ ]
+}

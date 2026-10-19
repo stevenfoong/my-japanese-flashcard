@@ -1,0 +1,36 @@
+name: kana_cards
+description: Flip-card practice for hiragana, katakana and kanji, aimed at reading Japan as a traveller.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^4.0.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/decks/
+    - assets/fonts/OFL-KleeOne.txt
+    - assets/fonts/OFL-MPLUSRounded1c.txt
+  fonts:
+    - family: KleeOne
+      fonts:
+        - asset: assets/fonts/KleeOne-SemiBold.ttf
+          weight: 600
+    - family: MPlusRounded
+      fonts:
+        - asset: assets/fonts/MPLUSRounded1c-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/MPLUSRounded1c-Bold.ttf
+          weight: 700
