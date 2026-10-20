@@ -423,6 +423,556 @@
    "note": "周年 counts anniversaries",
    "group": "word",
    "photo": "photos/menu004-22.webp"
+  },
+  {
+   "id": "photo-menu005-01",
+   "front": "ガリガリ君チューハイ",
+   "kana": "ガリガリくんチューハイ",
+   "romaji": "garigari-kun chuuhai",
+   "meaning": "chu-hi with a Garigari-kun ice pop",
+   "note": "ガリガリ君 is a famous ice pop; チューハイ is shochu with soda",
+   "group": "word",
+   "photo": "photos/menu005-01.webp"
+  },
+  {
+   "id": "photo-menu005-02",
+   "front": "沖縄パイン",
+   "kana": "おきなわパイン",
+   "romaji": "okinawa pain",
+   "meaning": "Okinawa pineapple",
+   "note": "パイン is short for パイナップル",
+   "group": "word",
+   "photo": "photos/menu005-02.webp"
+  },
+  {
+   "id": "photo-menu005-03",
+   "front": "博多あまおう",
+   "kana": "はかたあまおう",
+   "romaji": "hakata amaou",
+   "meaning": "Hakata Amaou strawberry",
+   "note": "あまおう is a strawberry variety from Fukuoka",
+   "group": "word",
+   "photo": "photos/menu005-03.webp"
+  },
+  {
+   "id": "photo-menu005-04",
+   "front": "京都宇治茶",
+   "kana": "きょうとうじちゃ",
+   "romaji": "kyouto ujicha",
+   "meaning": "Kyoto Uji green tea",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-04.webp"
+  },
+  {
+   "id": "photo-menu005-05",
+   "front": "台湾バナナ",
+   "kana": "たいわんバナナ",
+   "romaji": "taiwan banana",
+   "meaning": "Taiwanese banana",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-05.webp"
+  },
+  {
+   "id": "photo-menu005-06",
+   "front": "北海道メロン",
+   "kana": "ほっかいどうメロン",
+   "romaji": "hokkaidou meron",
+   "meaning": "Hokkaido melon",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-06.webp"
+  },
+  {
+   "id": "photo-menu005-07",
+   "front": "宮崎ざくろ",
+   "kana": "みやざきざくろ",
+   "romaji": "miyazaki zakuro",
+   "meaning": "Miyazaki pomegranate",
+   "note": "ざくろ is pomegranate",
+   "group": "word",
+   "photo": "photos/menu005-07.webp"
+  },
+  {
+   "id": "photo-menu005-08",
+   "front": "昭和カルピス",
+   "kana": "しょうわカルピス",
+   "romaji": "shouwa karupisu",
+   "meaning": "old-style Calpis",
+   "note": "カルピス is a milky soft drink; 昭和 is the 1926 to 1989 era",
+   "group": "word",
+   "photo": "photos/menu005-08.webp"
+  },
+  {
+   "id": "photo-menu005-09",
+   "front": "京都ゆず",
+   "kana": "きょうとゆず",
+   "romaji": "kyouto yuzu",
+   "meaning": "Kyoto yuzu citrus",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-09.webp"
+  },
+  {
+   "id": "photo-menu005-10",
+   "front": "土佐ぽんかん",
+   "kana": "とさぽんかん",
+   "romaji": "tosa ponkan",
+   "meaning": "Tosa ponkan mandarin",
+   "note": "土佐 is the old name for Kochi",
+   "group": "word",
+   "photo": "photos/menu005-10.webp"
+  },
+  {
+   "id": "photo-menu005-11",
+   "front": "宮崎マンゴー",
+   "kana": "みやざきマンゴー",
+   "romaji": "miyazaki mangoo",
+   "meaning": "Miyazaki mango",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-11.webp"
+  },
+  {
+   "id": "photo-menu005-12",
+   "front": "徳之島すだち",
+   "kana": "とくのしますだち",
+   "romaji": "tokunoshima sudachi",
+   "meaning": "Tokunoshima sudachi citrus",
+   "note": "すだち is a small sour green citrus",
+   "group": "word",
+   "photo": "photos/menu005-12.webp"
+  },
+  {
+   "id": "photo-menu005-13",
+   "front": "新潟ラフランス",
+   "kana": "にいがたラフランス",
+   "romaji": "niigata rafuransu",
+   "meaning": "Niigata La France pear",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-13.webp"
+  },
+  {
+   "id": "photo-menu005-14",
+   "front": "高知かぼす",
+   "kana": "こうちかぼす",
+   "romaji": "kouchi kabosu",
+   "meaning": "Kochi kabosu citrus",
+   "note": "かぼす is a sour citrus like lime",
+   "group": "word",
+   "photo": "photos/menu005-14.webp"
+  },
+  {
+   "id": "photo-menu005-15",
+   "front": "青森りんご",
+   "kana": "あおもりりんご",
+   "romaji": "aomori ringo",
+   "meaning": "Aomori apple",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-15.webp"
+  },
+  {
+   "id": "photo-menu005-16",
+   "front": "宮崎日向夏",
+   "kana": "みやざきひゅうがなつ",
+   "romaji": "miyazaki hyuuganatsu",
+   "meaning": "Miyazaki hyuganatsu citrus",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-16.webp"
+  },
+  {
+   "id": "photo-menu005-17",
+   "front": "ハイボール",
+   "kana": "ハイボール",
+   "romaji": "haibooru",
+   "meaning": "highball (whisky and soda)",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-17.webp"
+  },
+  {
+   "id": "photo-menu005-18",
+   "front": "トリスハイボール",
+   "kana": "トリスハイボール",
+   "romaji": "torisu haibooru",
+   "meaning": "Torys whisky highball",
+   "note": "Torys is a budget whisky brand",
+   "group": "word",
+   "photo": "photos/menu005-18.webp"
+  },
+  {
+   "id": "photo-menu005-19",
+   "front": "角瓶ハイボール",
+   "kana": "かくびんハイボール",
+   "romaji": "kakubin haibooru",
+   "meaning": "Kakubin whisky highball",
+   "note": "角瓶 (square bottle) is a Suntory whisky",
+   "group": "word",
+   "photo": "photos/menu005-19.webp"
+  },
+  {
+   "id": "photo-menu005-20",
+   "front": "コークハイボール",
+   "kana": "コークハイボール",
+   "romaji": "kooku haibooru",
+   "meaning": "whisky and cola",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-20.webp"
+  },
+  {
+   "id": "photo-menu005-21",
+   "front": "ジンジャーハイボール",
+   "kana": "ジンジャーハイボール",
+   "romaji": "jinjaa haibooru",
+   "meaning": "whisky and ginger ale",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-21.webp"
+  },
+  {
+   "id": "photo-menu005-22",
+   "front": "シャリキンハイボール",
+   "kana": "シャリキンハイボール",
+   "romaji": "sharikin haibooru",
+   "meaning": "highball with frozen Kinmiya shochu",
+   "note": "シャリキン is Kinmiya shochu frozen to slush",
+   "group": "word",
+   "photo": "photos/menu005-22.webp"
+  },
+  {
+   "id": "photo-menu005-23",
+   "front": "金魚すくいハイボール",
+   "kana": "きんぎょすくいハイボール",
+   "romaji": "kingyo sukui haibooru",
+   "meaning": "goldfish-scooping highball",
+   "note": "金魚すくい is the festival game of scooping goldfish",
+   "group": "word",
+   "photo": "photos/menu005-23.webp"
+  },
+  {
+   "id": "photo-menu005-24",
+   "front": "金魚すくい成功されたらメガハイボールで提供します",
+   "kana": "きんぎょすくいせいこうされたらメガハイボールでていきょうします",
+   "romaji": "kingyo sukui seikou saretara mega haibooru de teikyou shimasu",
+   "meaning": "win at goldfish scooping and you get a mega highball",
+   "note": "成功 means success; 提供します means we serve",
+   "group": "word",
+   "photo": "photos/menu005-24.webp"
+  },
+  {
+   "id": "photo-menu005-25",
+   "front": "みょうがポン酢",
+   "kana": "みょうがポンず",
+   "romaji": "myouga ponzu",
+   "meaning": "myoga ginger with ponzu",
+   "note": "A snack; ポン酢 is a citrus soy sauce",
+   "group": "word",
+   "photo": "photos/menu005-25.webp"
+  },
+  {
+   "id": "photo-menu005-26",
+   "front": "たぶん日本一安い",
+   "kana": "たぶんにほんいちやすい",
+   "romaji": "tabun nihon ichi yasui",
+   "meaning": "probably the cheapest in Japan",
+   "note": "日本一 means number one in Japan; 安い means cheap",
+   "group": "word",
+   "photo": "photos/menu005-26.webp"
+  },
+  {
+   "id": "photo-menu005-27",
+   "front": "中トロと豚足",
+   "kana": "ちゅうトロととんそく",
+   "romaji": "chuutoro to tonsoku",
+   "meaning": "medium-fatty tuna and pig trotters",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-27.webp"
+  },
+  {
+   "id": "photo-menu005-28",
+   "front": "焼酎",
+   "kana": "しょうちゅう",
+   "romaji": "shouchuu",
+   "meaning": "shochu (distilled spirit)",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-28.webp"
+  },
+  {
+   "id": "photo-menu005-29",
+   "front": "(水割・ソーダ・湯割)",
+   "kana": "みずわり、ソーダ、ゆわり",
+   "romaji": "mizuwari, sooda, yuwari",
+   "meaning": "with water, with soda, with hot water",
+   "note": "How you can have your shochu",
+   "group": "word",
+   "photo": "photos/menu005-29.webp"
+  },
+  {
+   "id": "photo-menu005-30",
+   "front": "いたせり(甲)",
+   "kana": "いたせり、こう",
+   "romaji": "itaseri (kou)",
+   "meaning": "Itaseri shochu (kou type)",
+   "note": "甲 is continuous-distilled shochu, good for mixing",
+   "group": "word",
+   "photo": "photos/menu005-30.webp"
+  },
+  {
+   "id": "photo-menu005-31",
+   "front": "二階堂(麦)",
+   "kana": "にかいどう、むぎ",
+   "romaji": "nikaidou (mugi)",
+   "meaning": "Nikaido barley shochu",
+   "note": "麦 means barley",
+   "group": "word",
+   "photo": "photos/menu005-31.webp"
+  },
+  {
+   "id": "photo-menu005-32",
+   "front": "いいちこ(麦)",
+   "kana": "いいちこ、むぎ",
+   "romaji": "iichiko (mugi)",
+   "meaning": "Iichiko barley shochu",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-32.webp"
+  },
+  {
+   "id": "photo-menu005-33",
+   "front": "黒霧島(芋)",
+   "kana": "くろきりしま、いも",
+   "romaji": "kuro kirishima (imo)",
+   "meaning": "Kuro Kirishima sweet potato shochu",
+   "note": "芋 means sweet potato",
+   "group": "word",
+   "photo": "photos/menu005-33.webp"
+  },
+  {
+   "id": "photo-menu005-34",
+   "front": "赤霧島(芋)",
+   "kana": "あかきりしま、いも",
+   "romaji": "aka kirishima (imo)",
+   "meaning": "Aka Kirishima sweet potato shochu",
+   "note": "黒 is black, 赤 is red",
+   "group": "word",
+   "photo": "photos/menu005-34.webp"
+  },
+  {
+   "id": "photo-menu005-35",
+   "front": "キンミヤ(甲)",
+   "kana": "キンミヤ、こう",
+   "romaji": "kinmiya (kou)",
+   "meaning": "Kinmiya shochu (kou type)",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-35.webp"
+  },
+  {
+   "id": "photo-menu005-36",
+   "front": "金宮シャリキン(甲)",
+   "kana": "きんみやシャリキン、こう",
+   "romaji": "kinmiya sharikin (kou)",
+   "meaning": "frozen Kinmiya shochu",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-36.webp"
+  },
+  {
+   "id": "photo-menu005-37",
+   "front": "地酒",
+   "kana": "じざけ",
+   "romaji": "jizake",
+   "meaning": "local sake",
+   "note": "Sake from a particular region",
+   "group": "word",
+   "photo": "photos/menu005-37.webp"
+  },
+  {
+   "id": "photo-menu005-38",
+   "front": "奈良県",
+   "kana": "ならけん",
+   "romaji": "nara-ken",
+   "meaning": "Nara Prefecture",
+   "note": "県 means prefecture",
+   "group": "word",
+   "photo": "photos/menu005-38.webp"
+  },
+  {
+   "id": "photo-menu005-39",
+   "front": "甘口",
+   "kana": "あまくち",
+   "romaji": "amakuchi",
+   "meaning": "sweet (sake)",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-39.webp"
+  },
+  {
+   "id": "photo-menu005-40",
+   "front": "辛口",
+   "kana": "からくち",
+   "romaji": "karakuchi",
+   "meaning": "dry (sake)",
+   "note": "For food 辛口 means spicy",
+   "group": "word",
+   "photo": "photos/menu005-40.webp"
+  },
+  {
+   "id": "photo-menu005-41",
+   "front": "純米",
+   "kana": "じゅんまい",
+   "romaji": "junmai",
+   "meaning": "pure rice sake",
+   "note": "Made only from rice, with no added alcohol",
+   "group": "word",
+   "photo": "photos/menu005-41.webp"
+  },
+  {
+   "id": "photo-menu005-42",
+   "front": "大阪池田",
+   "kana": "おおさかいけだ",
+   "romaji": "oosaka ikeda",
+   "meaning": "Ikeda, Osaka",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-42.webp"
+  },
+  {
+   "id": "photo-menu005-43",
+   "front": "本醸造",
+   "kana": "ほんじょうぞう",
+   "romaji": "honjouzou",
+   "meaning": "honjozo sake",
+   "note": "A little added alcohol; light and easy to drink",
+   "group": "word",
+   "photo": "photos/menu005-43.webp"
+  },
+  {
+   "id": "photo-menu005-44",
+   "front": "大吟醸",
+   "kana": "だいぎんじょう",
+   "romaji": "daiginjou",
+   "meaning": "daiginjo sake",
+   "note": "Top grade: rice polished to half its size or less",
+   "group": "word",
+   "photo": "photos/menu005-44.webp"
+  },
+  {
+   "id": "photo-menu005-45",
+   "front": "日本酒",
+   "kana": "にほんしゅ",
+   "romaji": "nihonshu",
+   "meaning": "sake (rice wine)",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-45.webp"
+  },
+  {
+   "id": "photo-menu005-46",
+   "front": "(常温・冷酒・あつかん)",
+   "kana": "じょうおん、れいしゅ、あつかん",
+   "romaji": "jouon, reishu, atsukan",
+   "meaning": "room temperature, chilled, hot",
+   "note": "How you can have your sake",
+   "group": "word",
+   "photo": "photos/menu005-46.webp"
+  },
+  {
+   "id": "photo-menu005-47",
+   "front": "福徳長(1合)",
+   "kana": "ふくとくちょう、いちごう",
+   "romaji": "fukutokuchou (ichigou)",
+   "meaning": "Fukutokucho sake, 180 ml",
+   "note": "1合 (ichigou) is 180 ml",
+   "group": "word",
+   "photo": "photos/menu005-47.webp"
+  },
+  {
+   "id": "photo-menu005-48",
+   "front": "松竹梅(1合)",
+   "kana": "しょうちくばい、いちごう",
+   "romaji": "shouchikubai (ichigou)",
+   "meaning": "Shochikubai sake, 180 ml",
+   "note": "松竹梅 means pine, bamboo and plum",
+   "group": "word",
+   "photo": "photos/menu005-48.webp"
+  },
+  {
+   "id": "photo-menu005-49",
+   "front": "㊙どぶろく(1合)",
+   "kana": "どぶろく、いちごう",
+   "romaji": "doburoku (ichigou)",
+   "meaning": "cloudy unfiltered sake, 180 ml",
+   "note": "㊙ means secret, a house special",
+   "group": "word",
+   "photo": "photos/menu005-49.webp"
+  },
+  {
+   "id": "photo-menu005-50",
+   "front": "㊙うわずみ(1合)",
+   "kana": "うわずみ、いちごう",
+   "romaji": "uwazumi (ichigou)",
+   "meaning": "clear top layer of doburoku, 180 ml",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-50.webp"
+  },
+  {
+   "id": "photo-menu005-51",
+   "front": "冷酒",
+   "kana": "れいしゅ",
+   "romaji": "reishu",
+   "meaning": "chilled sake",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-51.webp"
+  },
+  {
+   "id": "photo-menu005-52",
+   "front": "生酒",
+   "kana": "なまざけ",
+   "romaji": "namazake",
+   "meaning": "unpasteurised sake",
+   "note": "生 means raw or fresh",
+   "group": "word",
+   "photo": "photos/menu005-52.webp"
+  },
+  {
+   "id": "photo-menu005-53",
+   "front": "(1合瓶)",
+   "kana": "いちごうびん",
+   "romaji": "ichigou bin",
+   "meaning": "180 ml bottle",
+   "note": "瓶 means bottle",
+   "group": "word",
+   "photo": "photos/menu005-53.webp"
+  },
+  {
+   "id": "photo-menu005-54",
+   "front": "月桂冠(180cc)",
+   "kana": "げっけいかん",
+   "romaji": "gekkeikan",
+   "meaning": "Gekkeikan sake, 180 ml",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu005-54.webp"
+  },
+  {
+   "id": "photo-menu005-55",
+   "front": "黄桜(180cc)",
+   "kana": "きざくら",
+   "romaji": "kizakura",
+   "meaning": "Kizakura sake, 180 ml",
+   "note": "黄桜 means yellow cherry blossom",
+   "group": "word",
+   "photo": "photos/menu005-55.webp"
   }
  ]
 }
