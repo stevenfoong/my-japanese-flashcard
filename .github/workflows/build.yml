@@ -36,17 +36,17 @@ jobs:
           flutter create --org com.stevenfoong --project-name kana_cards --platforms android .
           python3 tools/patch_android.py
 
-      - name: Use the shared test signing key
+      - name: Use the shared signing key
         env:
           KEYSTORE_B64: ${{ secrets.TEST_KEYSTORE_B64 }}
         run: |
-          if [ -n "$KEYSTORE_B64" ]; then
-            mkdir -p ~/.android
-            echo "$KEYSTORE_B64" | base64 -d > ~/.android/debug.keystore
-            echo "Signing with the shared test key"
-          else
-            echo "::warning::TEST_KEYSTORE_B64 secret is not set. This APK uses a one-off key, so uninstall the old app before installing it."
+          if [ -z "$KEYSTORE_B64" ]; then
+            echo "::error::TEST_KEYSTORE_B64 secret is not set, so this APK could not update the installed app."
+            exit 1
           fi
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/kana.keystore"
+          echo "KANA_KEYSTORE=$RUNNER_TEMP/kana.keystore" >> "$GITHUB_ENV"
+          keytool -list -v -keystore "$RUNNER_TEMP/kana.keystore" -storepass android | grep -m1 "SHA256"
 
       - run: flutter pub get
 

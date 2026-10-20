@@ -2,6 +2,8 @@
 
 - App name shown on the phone
 - Lets the app find the phone's text-to-speech engine (needed on Android 11+)
+- Signs release builds with the shared key from the KANA_KEYSTORE file, so
+  every APK installs as an update over the previous one
 - Stops the release-build code shrinker from removing plugin code that is
   only called from native code (it broke saving progress)
 """
@@ -47,3 +49,25 @@ ptext = props.read_text(encoding="utf-8") if props.exists() else ""
 if "shrink=" not in ptext:
     props.write_text(ptext.rstrip("\n") + "\nshrink=false\n", encoding="utf-8")
 print(props.read_text(encoding="utf-8"))
+
+# Sign with the shared key. Gradle otherwise falls back to a fresh debug key
+# on every CI run, and Android refuses to update an app signed differently.
+gradle = Path("android/app/build.gradle.kts")
+g = gradle.read_text(encoding="utf-8")
+if 'create("shared")' not in g:
+    shared = """    signingConfigs {
+        create("shared") {
+            storeFile = file(System.getenv("KANA_KEYSTORE") ?: error("KANA_KEYSTORE is not set"))
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
+    buildTypes {"""
+    assert "    buildTypes {" in g, "buildTypes block not found in build.gradle.kts"
+    g = g.replace("    buildTypes {", shared, 1)
+    assert 'signingConfigs.getByName("debug")' in g, "release signing line not found"
+    g = g.replace('signingConfigs.getByName("debug")', 'signingConfigs.getByName("shared")')
+    gradle.write_text(g, encoding="utf-8")
+print(g)
