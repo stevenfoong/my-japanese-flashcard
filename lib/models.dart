@@ -28,6 +28,7 @@ class KanaCard {
     required this.examples,
     this.kana = '',
     this.meaning = '',
+    this.photo = '',
   });
 
   final String id;
@@ -46,6 +47,9 @@ class KanaCard {
 
   /// English meaning (word decks). Empty for single-kana cards.
   final String meaning;
+
+  /// Photo of the real writing (assets path), or empty.
+  final String photo;
 
   /// A word or phrase card rather than a single kana.
   bool get isWord => group == 'word';
@@ -68,6 +72,7 @@ class KanaCard {
             .toList(),
         kana: (j['kana'] as String?) ?? '',
         meaning: (j['meaning'] as String?) ?? '',
+        photo: (j['photo'] as String?) ?? '',
       );
 }
 
@@ -83,9 +88,10 @@ class PracticeSet {
   static const katakana = PracticeSet('katakana', 'Katakana', ['katakana']);
   static const both = PracticeSet('hiragana+katakana', 'Hiragana + Katakana', ['hiragana', 'katakana']);
   static const katakanaWords = PracticeSet('katakana_words', 'Katakana words', ['katakana_words']);
-  static const foodMenu = PracticeSet('food_menu', 'Food menu', ['food_menu']);
+  static const foodMenu = PracticeSet('food_menu', 'Food menu', ['food_menu', 'menu_photos']);
+  static const realMenus = PracticeSet('menu_photos', 'Real menus', ['menu_photos']);
 
-  static const all = [hiragana, katakana, both, katakanaWords, foodMenu];
+  static const all = [hiragana, katakana, both, katakanaWords, foodMenu, realMenus];
 
   static PracticeSet? byKey(String? key) {
     for (final s in all) {

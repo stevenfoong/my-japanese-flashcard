@@ -1,0 +1,108 @@
+{
+ "deck": "menu_photos",
+ "title": "Real menus",
+ "style": "menu",
+ "version": 1,
+ "cards": [
+  {
+   "id": "photo-menu001-01",
+   "front": "単品",
+   "kana": "たんぴん",
+   "romaji": "tanpin",
+   "meaning": "item only (no set)",
+   "note": "Menu heading for dishes ordered on their own",
+   "group": "word",
+   "photo": "photos/menu001-01.webp"
+  },
+  {
+   "id": "photo-menu001-02",
+   "front": "塩むすび",
+   "kana": "しおむすび",
+   "romaji": "shio musubi",
+   "meaning": "salted rice ball",
+   "note": "むすび is another word for おにぎり",
+   "group": "word",
+   "photo": "photos/menu001-02.webp"
+  },
+  {
+   "id": "photo-menu001-03",
+   "front": "1ヶ",
+   "kana": "いっこ",
+   "romaji": "ikko",
+   "meaning": "one piece",
+   "note": "ヶ is a small ケ used as a counter; here it is read こ",
+   "group": "word",
+   "photo": "photos/menu001-03.webp"
+  },
+  {
+   "id": "photo-menu001-04",
+   "front": "味噌汁",
+   "kana": "みそしる",
+   "romaji": "misoshiru",
+   "meaning": "miso soup",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu001-04.webp"
+  },
+  {
+   "id": "photo-menu001-05",
+   "front": "サラダ",
+   "kana": "サラダ",
+   "romaji": "sarada",
+   "meaning": "salad",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu001-05.webp"
+  },
+  {
+   "id": "photo-menu001-06",
+   "front": "本日の小鉢1品",
+   "kana": "ほんじつのこばちいっぴん",
+   "romaji": "honjitsu no kobachi ippin",
+   "meaning": "one small side dish of the day",
+   "note": "本日 means today; 小鉢 is a small side dish",
+   "group": "word",
+   "photo": "photos/menu001-06.webp"
+  },
+  {
+   "id": "photo-menu001-07",
+   "front": "白ごはん",
+   "kana": "しろごはん",
+   "romaji": "shiro gohan",
+   "meaning": "plain white rice",
+   "note": "白 means white",
+   "group": "word",
+   "photo": "photos/menu001-07.webp"
+  },
+  {
+   "id": "photo-menu001-08",
+   "front": "ごはんおかわり",
+   "kana": "ごはんおかわり",
+   "romaji": "gohan okawari",
+   "meaning": "rice refill",
+   "note": "おかわり means a second helping",
+   "group": "word",
+   "photo": "photos/menu001-08.webp"
+  },
+  {
+   "id": "photo-menu001-09",
+   "front": "ごはんセット",
+   "kana": "ごはんセット",
+   "romaji": "gohan setto",
+   "meaning": "rice set",
+   "note": "On this menu: rice, miso soup, salad and 2 side dishes",
+   "group": "word",
+   "photo": "photos/menu001-09.webp"
+  },
+  {
+   "id": "photo-menu001-10",
+   "front": "小鉢2品",
+   "kana": "こばちにひん",
+   "romaji": "kobachi nihin",
+   "meaning": "two small side dishes",
+   "note": "品 counts dishes: 1品 ippin, 2品 nihin",
+   "group": "word",
+   "photo": "photos/menu001-10.webp"
+  }
+ ]
+}

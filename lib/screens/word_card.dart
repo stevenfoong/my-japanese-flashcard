@@ -45,18 +45,30 @@ class _CardLook {
     tip: Color(0xFF3A2E25),
   );
 
-  static _CardLook of(KanaCard card) => card.deck == 'food_menu' ? menu : cafe;
+  static _CardLook of(KanaCard card) => card.deck == 'katakana_words' ? cafe : menu;
 }
 
 /// Flip card for word decks. Front: the word as written. Back: reading,
 /// romaji with speaker, meaning and a tip. Tapping the card flips it, and
-/// on the back counts as Got it.
-class WordCard extends StatelessWidget {
+/// on the back counts as Got it. Photo cards show the real writing first,
+/// with a switch to the typed version.
+class WordCard extends StatefulWidget {
   const WordCard({super.key, required this.card, required this.flipped, required this.onTap});
 
   final KanaCard card;
   final bool flipped;
   final VoidCallback onTap;
+
+  @override
+  State<WordCard> createState() => _WordCardState();
+}
+
+class _WordCardState extends State<WordCard> {
+  bool _typed = false;
+
+  KanaCard get card => widget.card;
+  bool get flipped => widget.flipped;
+  VoidCallback get onTap => widget.onTap;
 
   @override
   Widget build(BuildContext context) {
@@ -93,7 +105,34 @@ class WordCard extends StatelessWidget {
     );
   }
 
+  Widget _photo(double maxHeight) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(12),
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxHeight: maxHeight),
+        child: Image.asset('assets/${card.photo}', fit: BoxFit.contain, semanticLabel: card.front),
+      ),
+    );
+  }
+
   Widget _front(_CardLook look) {
+    if (card.photo.isNotEmpty && !_typed) {
+      return Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text('REAL MENU', style: TextStyle(fontSize: 11, letterSpacing: 3, color: look.accent)),
+          const SizedBox(height: 12),
+          _photo(180),
+          const SizedBox(height: 16),
+          Text('Read it out loud, then tap', style: TextStyle(fontSize: 14, color: look.soft)),
+          const SizedBox(height: 6),
+          TextButton(
+            onPressed: () => setState(() => _typed = true),
+            child: Text('Show typed', style: TextStyle(color: look.accent)),
+          ),
+        ],
+      );
+    }
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -107,6 +146,11 @@ class WordCard extends StatelessWidget {
         ),
         const SizedBox(height: 14),
         Text('Read it out loud, then tap', style: TextStyle(fontSize: 14, color: look.soft)),
+        if (card.photo.isNotEmpty)
+          TextButton(
+            onPressed: () => setState(() => _typed = false),
+            child: Text('Show photo', style: TextStyle(color: look.accent)),
+          ),
       ],
     );
   }
@@ -122,6 +166,10 @@ class WordCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const SizedBox(height: 12),
+            if (card.photo.isNotEmpty) ...[
+              _photo(72),
+              const SizedBox(height: 8),
+            ],
             FittedBox(
               fit: BoxFit.scaleDown,
               child: Text(card.front, maxLines: 1, style: TextStyle(fontFamily: kanaFont, fontSize: 40, color: look.soft)),

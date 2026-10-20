@@ -8,7 +8,11 @@ CSV columns: front, kana, romaji, meaning, note
   kana    how it is read; the voice clip is made from this
   romaji  long vowels written twice (koohii, gyuudon)
 
-Card ids come from the romaji, and progress is saved against the id,
+content/menu-photos.csv also has a "photo" column: a crop in assets/photos/.
+Every photo is its own card, even when the word is already in another deck,
+so the same word can be practised in different handwriting.
+
+Card ids come from the romaji (or the photo file name), and progress is saved against the id,
 so fixing a romaji typo resets progress for that one card.
 """
 import csv
@@ -22,6 +26,7 @@ DECKS = {
     # csv file           deck name          title             id prefix  card style
     "katakana-words.csv": ("katakana_words", "Katakana words", "kw", "cafe"),
     "food-menu.csv": ("food_menu", "Food menu", "food", "menu"),
+    "menu-photos.csv": ("menu_photos", "Real menus", "photo", "menu"),
 }
 
 
@@ -38,13 +43,18 @@ def build(csv_name, deck, title, prefix, style):
         r = {k: (v or "").strip() for k, v in r.items()}
         if not (r["front"] and r["kana"] and r["romaji"] and r["meaning"]):
             sys.exit(f"{csv_name} line {n}: front, kana, romaji and meaning are required")
-        cid = f"{prefix}-{slug(r['romaji'])}"
+        photo = r.get("photo", "")
+        if photo and not (ROOT / "assets" / "photos" / photo).exists():
+            sys.exit(f"{csv_name} line {n}: assets/photos/{photo} not found")
+        # Photo cards are named after their image, so one word can have many.
+        cid = f"{prefix}-{Path(photo).stem}" if photo else f"{prefix}-{slug(r['romaji'])}"
         if cid in seen:
-            sys.exit(f"{csv_name} line {n}: duplicate romaji {r['romaji']}")
+            sys.exit(f"{csv_name} line {n}: duplicate card id {cid}")
         seen.add(cid)
         cards.append({
             "id": cid, "front": r["front"], "kana": r["kana"], "romaji": r["romaji"],
             "meaning": r["meaning"], "note": r["note"], "group": "word",
+            **({"photo": f"photos/{photo}"} if photo else {}),
         })
     data = {"deck": deck, "title": title, "style": style, "version": 1, "cards": cards}
     (ROOT / "assets" / "decks" / f"{deck}.json").write_text(

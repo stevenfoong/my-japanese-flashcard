@@ -25,6 +25,7 @@ flutter:
     - assets/audio/
     - assets/audio/kana/
     - assets/audio/words/
+    - assets/photos/
     - assets/fonts/OFL-KleeOne.txt
     - assets/fonts/OFL-MPLUSRounded1c.txt
   fonts:
