@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 
 import 'screens/home_screen.dart';
 import 'services/app_state.dart';
+import 'services/speech.dart';
 import 'theme.dart';
 
 Future<void> main() async {
@@ -11,6 +12,7 @@ Future<void> main() async {
   _registerFontLicenses();
   // Draw the app straight away; saved data loads in the background.
   runApp(const KanaApp());
+  Speech.loadIndex();
   await AppState.instance.init();
 }
 

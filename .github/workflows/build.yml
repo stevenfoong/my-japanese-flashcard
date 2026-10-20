@@ -70,11 +70,12 @@ jobs:
             echo "### Build details"
             echo '```'
             flutter --version | head -1
-            for p in shared_preferences shared_preferences_android flutter_tts jni; do
+            for p in shared_preferences shared_preferences_android flutter_tts audioplayers jni; do
               v=$(awk -v p="  $p:" '$0==p{f=1} f&&/version:/{print $2; exit}' pubspec.lock)
               echo "$p: ${v:-not used}"
             done
             grep -E "^shrink=" android/gradle.properties || echo "shrink: default"
+            python3 -c "import json; d=json.load(open('assets/audio/index.json')); print('Voice clips:', len(set(d['clips'].values())), 'from', d.get('voice') or 'none (phone voice only)')"
             if [ -d build/app/outputs/mapping/release ]; then echo "R8 mapping: present (shrinking ran)"; else echo "R8 mapping: none (shrinking off)"; fi
             echo '```'
           } > build-info.md

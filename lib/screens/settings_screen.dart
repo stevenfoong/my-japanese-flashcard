@@ -93,10 +93,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ),
                         const SizedBox(height: 6),
                         Text(
-                          installed == true
-                              ? 'Sounds will work without internet. Test it in airplane mode to be sure.'
-                              : 'Sounds use your phone\'s text-to-speech. Open Android Settings, search for '
-                                  '"text-to-speech", and install the Japanese voice for the speech engine.',
+                          Speech.voiceCredit != null
+                              ? 'Kana and example words use built-in recordings and always work offline. '
+                                  'The phone voice is only a backup for words without a recording.'
+                              : installed == true
+                                  ? 'Sounds will work without internet. Test it in airplane mode to be sure.'
+                                  : 'Sounds use your phone\'s text-to-speech. Open Android Settings, search for '
+                                      '"text-to-speech", and install the Japanese voice for the speech engine.',
                           style: TextStyle(fontSize: 13, color: c.muted),
                         ),
                         const SizedBox(height: 12),
@@ -136,11 +139,18 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       what: 'App font · M+ Fonts Project',
                       license: 'SIL Open Font License 1.1',
                     ),
-                    const _CreditRow(
-                      name: 'Sounds',
-                      what: "Your phone's Japanese text-to-speech voice",
-                      license: 'Provided by your phone',
-                    ),
+                    if (Speech.voiceCredit != null)
+                      _CreditRow(
+                        name: Speech.voiceCredit!,
+                        what: 'Voice for the kana and example words · VOICEVOX',
+                        license: 'Used under the VOICEVOX and No.7 terms of use',
+                      )
+                    else
+                      const _CreditRow(
+                        name: 'Sounds',
+                        what: "Your phone's Japanese text-to-speech voice",
+                        license: 'Provided by your phone',
+                      ),
                     ListTile(
                       shape: Border(top: BorderSide(color: c.line)),
                       title: const Text('Open-source licenses', style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700)),

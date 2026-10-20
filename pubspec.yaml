@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_tts: ^4.0.2
+  audioplayers: ^6.1.0
   shared_preferences: ^2.3.2
 
 dev_dependencies:
@@ -21,6 +22,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/decks/
+    - assets/audio/
+    - assets/audio/kana/
+    - assets/audio/words/
     - assets/fonts/OFL-KleeOne.txt
     - assets/fonts/OFL-MPLUSRounded1c.txt
   fonts:

@@ -1,0 +1,73 @@
+name: Generate audio
+
+# Makes the kana and example-word clips with VOICEVOX, commits them,
+# then starts a new APK build.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/decks/**'
+      - 'tools/generate_audio.py'
+      - '.github/workflows/generate-audio.yml'
+  workflow_dispatch:
+    inputs:
+      voice:
+        description: 'VOICEVOX character name'
+        default: 'No.7'
+      style:
+        description: 'Voice style'
+        default: 'ノーマル'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: generate-audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    services:
+      voicevox:
+        image: voicevox/voicevox_engine:cpu-latest
+        ports:
+          - 50021:50021
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for the voice engine
+        run: |
+          for i in $(seq 1 90); do
+            if curl -sf http://127.0.0.1:50021/version; then echo; exit 0; fi
+            sleep 2
+          done
+          echo "::error::VOICEVOX engine did not start"; exit 1
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Generate clips
+        env:
+          VOICE_NAME: ${{ inputs.voice || 'No.7' }}
+          VOICE_STYLE: ${{ inputs.style || 'ノーマル' }}
+        run: |
+          python3 tools/generate_audio.py | tee audio.log
+          echo "::notice::$(tail -1 audio.log)"
+
+      - name: Commit clips and start a build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add assets/audio
+          if git diff --cached --quiet; then
+            echo "::notice::Clips already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Update voice clips ($(tail -1 audio.log))"
+          git pull -q --rebase origin main
+          git push
+          gh workflow run build.yml --ref main
