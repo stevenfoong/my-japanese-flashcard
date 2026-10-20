@@ -54,6 +54,18 @@ class _SettingsScreenState extends State<SettingsScreen> {
               Text("System follows your phone's light or dark setting",
                   style: TextStyle(fontSize: 12, color: c.muted)),
               const SizedBox(height: 22),
+              const SectionLabel('Sound'),
+              Panel(
+                padding: EdgeInsets.zero,
+                child: SwitchListTile(
+                  title: const Text('Play sound when a card flips',
+                      style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700)),
+                  subtitle: Text('Turn off for quiet places', style: TextStyle(fontSize: 12, color: c.muted)),
+                  value: state.autoPlay,
+                  onChanged: state.setAutoPlay,
+                ),
+              ),
+              const SizedBox(height: 22),
               const SectionLabel('Offline voice'),
               Panel(
                 child: FutureBuilder<bool?>(

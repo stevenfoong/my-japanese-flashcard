@@ -52,6 +52,9 @@ class AppState extends ChangeNotifier {
   /// Set when saved data could not be loaded; the app still runs without it.
   String? initError;
   ThemeMode themeMode = ThemeMode.system;
+
+  /// Play the card's sound automatically when it flips.
+  bool autoPlay = true;
   final Map<String, CardProgress> _progress = {};
   final Map<String, int> _daily = {};
   final Map<String, int> _totals = {};
@@ -62,6 +65,7 @@ class AppState extends ChangeNotifier {
     try {
       final prefs = await SharedPreferences.getInstance().timeout(const Duration(seconds: 8));
       _prefs = prefs;
+      autoPlay = prefs.getBool('auto_play') ?? true;
       themeMode = switch (prefs.getString('theme')) {
         'light' => ThemeMode.light,
         'dark' => ThemeMode.dark,
@@ -99,6 +103,12 @@ class AppState extends ChangeNotifier {
       '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
 
   // ---- Settings ----
+
+  Future<void> setAutoPlay(bool on) async {
+    autoPlay = on;
+    notifyListeners();
+    await _prefs?.setBool('auto_play', on);
+  }
 
   Future<void> setThemeMode(ThemeMode mode) async {
     themeMode = mode;

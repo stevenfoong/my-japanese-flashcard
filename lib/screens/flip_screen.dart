@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../models.dart';
 import '../services/app_state.dart';
 import '../services/decks.dart';
+import '../services/speech.dart';
 import '../theme.dart';
 import '../widgets.dart';
 
@@ -112,6 +113,7 @@ class _FlipScreenState extends State<FlipScreen> {
     final card = _card;
     if (card == null || _flipped) return;
     setState(() => _flipped = true);
+    if (_state.autoPlay) Speech.speak(card.front);
     _state.recordFlip(card);
   }
 
