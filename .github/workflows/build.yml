@@ -3,8 +3,17 @@ name: Build APK
 on:
   push:
     branches: [main]
+    # Content (word lists, photos, decks, voice clips) never builds on its
+    # own: run this workflow by hand, or ask Claude, when you want an APK.
     paths-ignore:
       - 'content/**'
+      - 'assets/decks/**'
+      - 'assets/audio/**'
+      - 'assets/photos/**'
+      - 'tools/build_word_decks.py'
+      - 'tools/build_kana_decks.py'
+      - 'tools/generate_audio.py'
+      - '.github/workflows/generate-audio.yml'
       - '**.md'
   workflow_dispatch:
 

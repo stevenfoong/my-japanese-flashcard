@@ -1,8 +1,8 @@
 name: Generate audio
 
 # Turns the word lists in content/*.csv into decks, makes the voice clips
-# with VOICEVOX, commits both, then starts a new APK build.
-# Editing a CSV on GitHub is enough to update the app.
+# with VOICEVOX and commits both. It does not build an APK unless
+# "Build APK afterwards" is ticked when running it by hand.
 on:
   push:
     branches: [main]
@@ -20,6 +20,10 @@ on:
       style:
         description: 'Voice style'
         default: 'ノーマル'
+      build_apk:
+        description: 'Build APK afterwards'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -62,7 +66,7 @@ jobs:
           python3 tools/generate_audio.py | tee audio.log
           echo "::notice::$(tail -1 audio.log)"
 
-      - name: Commit clips and start a build
+      - name: Commit decks and clips
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -76,4 +80,9 @@ jobs:
           git commit -q -m "Update decks and voice clips ($(tail -1 audio.log))"
           git pull -q --rebase origin main
           git push
-          gh workflow run build.yml --ref main
+
+      - name: Build APK afterwards
+        if: ${{ inputs.build_apk }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref main
