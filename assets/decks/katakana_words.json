@@ -1,0 +1,503 @@
+{
+ "deck": "katakana_words",
+ "title": "Katakana words",
+ "style": "cafe",
+ "version": 1,
+ "cards": [
+  {
+   "id": "kw-koohii",
+   "front": "コーヒー",
+   "kana": "コーヒー",
+   "romaji": "koohii",
+   "meaning": "coffee",
+   "note": "ー makes the vowel before it long: ko-o-hi-i",
+   "group": "word"
+  },
+  {
+   "id": "kw-biiru",
+   "front": "ビール",
+   "kana": "ビール",
+   "romaji": "biiru",
+   "meaning": "beer",
+   "note": "Japanese has no L sound; it becomes R",
+   "group": "word"
+  },
+  {
+   "id": "kw-juusu",
+   "front": "ジュース",
+   "kana": "ジュース",
+   "romaji": "juusu",
+   "meaning": "juice",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-miruku",
+   "front": "ミルク",
+   "kana": "ミルク",
+   "romaji": "miruku",
+   "meaning": "milk",
+   "note": "An extra u is added after the k",
+   "group": "word"
+  },
+  {
+   "id": "kw-wain",
+   "front": "ワイン",
+   "kana": "ワイン",
+   "romaji": "wain",
+   "meaning": "wine",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-uisukii",
+   "front": "ウイスキー",
+   "kana": "ウイスキー",
+   "romaji": "uisukii",
+   "meaning": "whisky",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-haibooru",
+   "front": "ハイボール",
+   "kana": "ハイボール",
+   "romaji": "haibooru",
+   "meaning": "highball (whisky and soda)",
+   "note": "Very popular in izakaya bars",
+   "group": "word"
+  },
+  {
+   "id": "kw-koora",
+   "front": "コーラ",
+   "kana": "コーラ",
+   "romaji": "koora",
+   "meaning": "cola",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-keeki",
+   "front": "ケーキ",
+   "kana": "ケーキ",
+   "romaji": "keeki",
+   "meaning": "cake",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-aisu",
+   "front": "アイス",
+   "kana": "アイス",
+   "romaji": "aisu",
+   "meaning": "ice cream",
+   "note": "Short for アイスクリーム",
+   "group": "word"
+  },
+  {
+   "id": "kw-pan",
+   "front": "パン",
+   "kana": "パン",
+   "romaji": "pan",
+   "meaning": "bread",
+   "note": "From Portuguese pão",
+   "group": "word"
+  },
+  {
+   "id": "kw-sarada",
+   "front": "サラダ",
+   "kana": "サラダ",
+   "romaji": "sarada",
+   "meaning": "salad",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-suupu",
+   "front": "スープ",
+   "kana": "スープ",
+   "romaji": "suupu",
+   "meaning": "soup",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-karee",
+   "front": "カレー",
+   "kana": "カレー",
+   "romaji": "karee",
+   "meaning": "curry",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-raamen",
+   "front": "ラーメン",
+   "kana": "ラーメン",
+   "romaji": "raamen",
+   "meaning": "ramen",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-hanbaagaa",
+   "front": "ハンバーガー",
+   "kana": "ハンバーガー",
+   "romaji": "hanbaagaa",
+   "meaning": "hamburger",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-piza",
+   "front": "ピザ",
+   "kana": "ピザ",
+   "romaji": "piza",
+   "meaning": "pizza",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-pasuta",
+   "front": "パスタ",
+   "kana": "パスタ",
+   "romaji": "pasuta",
+   "meaning": "pasta",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-chiizu",
+   "front": "チーズ",
+   "kana": "チーズ",
+   "romaji": "chiizu",
+   "meaning": "cheese",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-suteeki",
+   "front": "ステーキ",
+   "kana": "ステーキ",
+   "romaji": "suteeki",
+   "meaning": "steak",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-furaido-poteto",
+   "front": "フライドポテト",
+   "kana": "フライドポテト",
+   "romaji": "furaido poteto",
+   "meaning": "French fries",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-dezaato",
+   "front": "デザート",
+   "kana": "デザート",
+   "romaji": "dezaato",
+   "meaning": "dessert",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-menyuu",
+   "front": "メニュー",
+   "kana": "メニュー",
+   "romaji": "menyuu",
+   "meaning": "menu",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-setto",
+   "front": "セット",
+   "kana": "セット",
+   "romaji": "setto",
+   "meaning": "set meal",
+   "note": "ッ doubles the next consonant: set-to",
+   "group": "word"
+  },
+  {
+   "id": "kw-ranchi",
+   "front": "ランチ",
+   "kana": "ランチ",
+   "romaji": "ranchi",
+   "meaning": "lunch",
+   "note": "Lunch sets are often good value",
+   "group": "word"
+  },
+  {
+   "id": "kw-mooningu",
+   "front": "モーニング",
+   "kana": "モーニング",
+   "romaji": "mooningu",
+   "meaning": "breakfast set",
+   "note": "Café breakfast deal served in the morning",
+   "group": "word"
+  },
+  {
+   "id": "kw-teikuauto",
+   "front": "テイクアウト",
+   "kana": "テイクアウト",
+   "romaji": "teikuauto",
+   "meaning": "takeaway",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-resutoran",
+   "front": "レストラン",
+   "kana": "レストラン",
+   "romaji": "resutoran",
+   "meaning": "restaurant",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-kafe",
+   "front": "カフェ",
+   "kana": "カフェ",
+   "romaji": "kafe",
+   "meaning": "café",
+   "note": "Small ェ joins with カ to make fe",
+   "group": "word"
+  },
+  {
+   "id": "kw-konbini",
+   "front": "コンビニ",
+   "kana": "コンビニ",
+   "romaji": "konbini",
+   "meaning": "convenience store",
+   "note": "Short for convenience store",
+   "group": "word"
+  },
+  {
+   "id": "kw-suupaa",
+   "front": "スーパー",
+   "kana": "スーパー",
+   "romaji": "suupaa",
+   "meaning": "supermarket",
+   "note": "Short for supermarket",
+   "group": "word"
+  },
+  {
+   "id": "kw-doraggusutoa",
+   "front": "ドラッグストア",
+   "kana": "ドラッグストア",
+   "romaji": "doraggusutoa",
+   "meaning": "drugstore",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-hoteru",
+   "front": "ホテル",
+   "kana": "ホテル",
+   "romaji": "hoteru",
+   "meaning": "hotel",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-chekkuin",
+   "front": "チェックイン",
+   "kana": "チェックイン",
+   "romaji": "chekkuin",
+   "meaning": "check-in",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-chekkuauto",
+   "front": "チェックアウト",
+   "kana": "チェックアウト",
+   "romaji": "chekkuauto",
+   "meaning": "check-out",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-furonto",
+   "front": "フロント",
+   "kana": "フロント",
+   "romaji": "furonto",
+   "meaning": "front desk",
+   "note": "Hotel reception",
+   "group": "word"
+  },
+  {
+   "id": "kw-erebeetaa",
+   "front": "エレベーター",
+   "kana": "エレベーター",
+   "romaji": "erebeetaa",
+   "meaning": "elevator",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-esukareetaa",
+   "front": "エスカレーター",
+   "kana": "エスカレーター",
+   "romaji": "esukareetaa",
+   "meaning": "escalator",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-toire",
+   "front": "トイレ",
+   "kana": "トイレ",
+   "romaji": "toire",
+   "meaning": "toilet",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-shawaa",
+   "front": "シャワー",
+   "kana": "シャワー",
+   "romaji": "shawaa",
+   "meaning": "shower",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-taoru",
+   "front": "タオル",
+   "kana": "タオル",
+   "romaji": "taoru",
+   "meaning": "towel",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-takushii",
+   "front": "タクシー",
+   "kana": "タクシー",
+   "romaji": "takushii",
+   "meaning": "taxi",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-basu",
+   "front": "バス",
+   "kana": "バス",
+   "romaji": "basu",
+   "meaning": "bus",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-hoomu",
+   "front": "ホーム",
+   "kana": "ホーム",
+   "romaji": "hoomu",
+   "meaning": "train platform",
+   "note": "From platform",
+   "group": "word"
+  },
+  {
+   "id": "kw-chiketto",
+   "front": "チケット",
+   "kana": "チケット",
+   "romaji": "chiketto",
+   "meaning": "ticket",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-koin-rokkaa",
+   "front": "コインロッカー",
+   "kana": "コインロッカー",
+   "romaji": "koin rokkaa",
+   "meaning": "coin locker",
+   "note": "Found at most big stations",
+   "group": "word"
+  },
+  {
+   "id": "kw-pasupooto",
+   "front": "パスポート",
+   "kana": "パスポート",
+   "romaji": "pasupooto",
+   "meaning": "passport",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-kaado",
+   "front": "カード",
+   "kana": "カード",
+   "romaji": "kaado",
+   "meaning": "card",
+   "note": "Credit card or IC card",
+   "group": "word"
+  },
+  {
+   "id": "kw-reji",
+   "front": "レジ",
+   "kana": "レジ",
+   "romaji": "reji",
+   "meaning": "cash register",
+   "note": "Where you pay in a shop",
+   "group": "word"
+  },
+  {
+   "id": "kw-reshiito",
+   "front": "レシート",
+   "kana": "レシート",
+   "romaji": "reshiito",
+   "meaning": "receipt",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-seeru",
+   "front": "セール",
+   "kana": "セール",
+   "romaji": "seeru",
+   "meaning": "sale",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-saizu",
+   "front": "サイズ",
+   "kana": "サイズ",
+   "romaji": "saizu",
+   "meaning": "size",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "kw-waifai",
+   "front": "ワイファイ",
+   "kana": "ワイファイ",
+   "romaji": "waifai",
+   "meaning": "Wi-Fi",
+   "note": "Often written Wi-Fi in English letters",
+   "group": "word"
+  },
+  {
+   "id": "kw-sumaho",
+   "front": "スマホ",
+   "kana": "スマホ",
+   "romaji": "sumaho",
+   "meaning": "smartphone",
+   "note": "Short for smartphone",
+   "group": "word"
+  },
+  {
+   "id": "kw-batterii",
+   "front": "バッテリー",
+   "kana": "バッテリー",
+   "romaji": "batterii",
+   "meaning": "battery",
+   "note": "Also used for a power bank",
+   "group": "word"
+  }
+ ]
+}

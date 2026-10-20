@@ -1,12 +1,15 @@
 name: Generate audio
 
-# Makes the kana and example-word clips with VOICEVOX, commits them,
-# then starts a new APK build.
+# Turns the word lists in content/*.csv into decks, makes the voice clips
+# with VOICEVOX, commits both, then starts a new APK build.
+# Editing a CSV on GitHub is enough to update the app.
 on:
   push:
     branches: [main]
     paths:
+      - 'content/**'
       - 'assets/decks/**'
+      - 'tools/build_word_decks.py'
       - 'tools/generate_audio.py'
       - '.github/workflows/generate-audio.yml'
   workflow_dispatch:
@@ -48,6 +51,9 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
 
+      - name: Build word decks from content/*.csv
+        run: python3 tools/build_word_decks.py
+
       - name: Generate clips
         env:
           VOICE_NAME: ${{ inputs.voice || 'No.7' }}
@@ -60,14 +66,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add assets/audio
+          git add assets/audio assets/decks
           if git diff --cached --quiet; then
             echo "::notice::Clips already up to date"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "Update voice clips ($(tail -1 audio.log))"
+          git commit -q -m "Update decks and voice clips ($(tail -1 audio.log))"
           git pull -q --rebase origin main
           git push
           gh workflow run build.yml --ref main

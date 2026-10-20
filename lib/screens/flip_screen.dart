@@ -8,6 +8,7 @@ import '../services/decks.dart';
 import '../services/speech.dart';
 import '../theme.dart';
 import '../widgets.dart';
+import 'word_card.dart';
 
 /// The endless flip-card session. Tap the front to reveal; on the back,
 /// Again / Skip / Got it, or tap empty space for Got it.
@@ -113,7 +114,7 @@ class _FlipScreenState extends State<FlipScreen> {
     final card = _card;
     if (card == null || _flipped) return;
     setState(() => _flipped = true);
-    if (_state.autoPlay) Speech.speak(card.front);
+    if (_state.autoPlay) Speech.speak(card.front, reading: card.reading);
     _state.recordFlip(card);
   }
 
@@ -215,9 +216,16 @@ class _FlipScreenState extends State<FlipScreen> {
                           opacity: anim,
                           child: ScaleTransition(scale: Tween(begin: 0.96, end: 1.0).animate(anim), child: child),
                         ),
-                        child: _flipped
-                            ? _CardBack(key: ValueKey('b${card.id}$_shown'), card: card, onEmptyTap: () => _answer(Answer.gotIt))
-                            : _CardFront(key: ValueKey('f${card.id}$_shown'), card: card, onTap: _flip),
+                        child: card.isWord
+                            ? WordCard(
+                                key: ValueKey('${_flipped ? 'b' : 'f'}${card.id}$_shown'),
+                                card: card,
+                                flipped: _flipped,
+                                onTap: _flipped ? () => _answer(Answer.gotIt) : _flip,
+                              )
+                            : _flipped
+                                ? _CardBack(key: ValueKey('b${card.id}$_shown'), card: card, onEmptyTap: () => _answer(Answer.gotIt))
+                                : _CardFront(key: ValueKey('f${card.id}$_shown'), card: card, onTap: _flip),
                       ),
               ),
               const SizedBox(height: 14),

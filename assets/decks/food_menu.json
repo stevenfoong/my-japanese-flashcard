@@ -1,0 +1,530 @@
+{
+ "deck": "food_menu",
+ "title": "Food menu",
+ "style": "menu",
+ "version": 1,
+ "cards": [
+  {
+   "id": "food-sushi",
+   "front": "寿司",
+   "kana": "すし",
+   "romaji": "sushi",
+   "meaning": "sushi",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-sashimi",
+   "front": "刺身",
+   "kana": "さしみ",
+   "romaji": "sashimi",
+   "meaning": "sliced raw fish",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-tenpura",
+   "front": "天ぷら",
+   "kana": "てんぷら",
+   "romaji": "tenpura",
+   "meaning": "tempura (battered and deep-fried)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-tendon",
+   "front": "天丼",
+   "kana": "てんどん",
+   "romaji": "tendon",
+   "meaning": "tempura rice bowl",
+   "note": "丼 (don) means rice bowl",
+   "group": "word"
+  },
+  {
+   "id": "food-oyakodon",
+   "front": "親子丼",
+   "kana": "おやこどん",
+   "romaji": "oyakodon",
+   "meaning": "chicken and egg rice bowl",
+   "note": "Literally parent and child bowl",
+   "group": "word"
+  },
+  {
+   "id": "food-gyuudon",
+   "front": "牛丼",
+   "kana": "ぎゅうどん",
+   "romaji": "gyuudon",
+   "meaning": "beef rice bowl",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-katsudon",
+   "front": "カツ丼",
+   "kana": "カツどん",
+   "romaji": "katsudon",
+   "meaning": "pork cutlet rice bowl",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-kaisendon",
+   "front": "海鮮丼",
+   "kana": "かいせんどん",
+   "romaji": "kaisendon",
+   "meaning": "raw seafood rice bowl",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-shouyu-raamen",
+   "front": "醤油ラーメン",
+   "kana": "しょうゆラーメン",
+   "romaji": "shouyu raamen",
+   "meaning": "soy sauce ramen",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-miso-raamen",
+   "front": "味噌ラーメン",
+   "kana": "みそラーメン",
+   "romaji": "miso raamen",
+   "meaning": "miso ramen",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-tonkotsu-raamen",
+   "front": "豚骨ラーメン",
+   "kana": "とんこつラーメン",
+   "romaji": "tonkotsu raamen",
+   "meaning": "pork bone broth ramen",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-kaedama",
+   "front": "替え玉",
+   "kana": "かえだま",
+   "romaji": "kaedama",
+   "meaning": "extra noodles",
+   "note": "Order a refill of noodles for your ramen soup",
+   "group": "word"
+  },
+  {
+   "id": "food-udon",
+   "front": "うどん",
+   "kana": "うどん",
+   "romaji": "udon",
+   "meaning": "thick wheat noodles",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-soba",
+   "front": "そば",
+   "kana": "そば",
+   "romaji": "soba",
+   "meaning": "buckwheat noodles",
+   "note": "Also written 蕎麦",
+   "group": "word"
+  },
+  {
+   "id": "food-yakisoba",
+   "front": "焼きそば",
+   "kana": "やきそば",
+   "romaji": "yakisoba",
+   "meaning": "fried noodles",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-yakitori",
+   "front": "焼き鳥",
+   "kana": "やきとり",
+   "romaji": "yakitori",
+   "meaning": "grilled chicken skewers",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-karaage",
+   "front": "唐揚げ",
+   "kana": "からあげ",
+   "romaji": "karaage",
+   "meaning": "Japanese fried chicken",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-tonkatsu",
+   "front": "とんかつ",
+   "kana": "とんかつ",
+   "romaji": "tonkatsu",
+   "meaning": "breaded pork cutlet",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-gyouza",
+   "front": "餃子",
+   "kana": "ぎょうざ",
+   "romaji": "gyouza",
+   "meaning": "dumplings",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-okonomiyaki",
+   "front": "お好み焼き",
+   "kana": "おこのみやき",
+   "romaji": "okonomiyaki",
+   "meaning": "savoury pancake",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-takoyaki",
+   "front": "たこ焼き",
+   "kana": "たこやき",
+   "romaji": "takoyaki",
+   "meaning": "octopus balls",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-karee-raisu",
+   "front": "カレーライス",
+   "kana": "カレーライス",
+   "romaji": "karee raisu",
+   "meaning": "Japanese curry rice",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-yakiniku",
+   "front": "焼肉",
+   "kana": "やきにく",
+   "romaji": "yakiniku",
+   "meaning": "grilled meat (Japanese BBQ)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-sukiyaki",
+   "front": "すき焼き",
+   "kana": "すきやき",
+   "romaji": "sukiyaki",
+   "meaning": "sweet soy beef hot pot",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-shabushabu",
+   "front": "しゃぶしゃぶ",
+   "kana": "しゃぶしゃぶ",
+   "romaji": "shabushabu",
+   "meaning": "hot pot with thin-sliced meat",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-onigiri",
+   "front": "おにぎり",
+   "kana": "おにぎり",
+   "romaji": "onigiri",
+   "meaning": "rice ball",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-misoshiru",
+   "front": "味噌汁",
+   "kana": "みそしる",
+   "romaji": "misoshiru",
+   "meaning": "miso soup",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-gohan",
+   "front": "ご飯",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "meaning": "rice; a meal",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-tsukemono",
+   "front": "漬物",
+   "kana": "つけもの",
+   "romaji": "tsukemono",
+   "meaning": "pickles",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-edamame",
+   "front": "枝豆",
+   "kana": "えだまめ",
+   "romaji": "edamame",
+   "meaning": "edamame (green soybeans)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-hiyayakko",
+   "front": "冷奴",
+   "kana": "ひややっこ",
+   "romaji": "hiyayakko",
+   "meaning": "chilled tofu",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-chawanmushi",
+   "front": "茶碗蒸し",
+   "kana": "ちゃわんむし",
+   "romaji": "chawanmushi",
+   "meaning": "savoury egg custard",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-toriniku",
+   "front": "鶏肉",
+   "kana": "とりにく",
+   "romaji": "toriniku",
+   "meaning": "chicken",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-butaniku",
+   "front": "豚肉",
+   "kana": "ぶたにく",
+   "romaji": "butaniku",
+   "meaning": "pork",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-gyuuniku",
+   "front": "牛肉",
+   "kana": "ぎゅうにく",
+   "romaji": "gyuuniku",
+   "meaning": "beef",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-sakana",
+   "front": "魚",
+   "kana": "さかな",
+   "romaji": "sakana",
+   "meaning": "fish",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-ebi",
+   "front": "えび",
+   "kana": "えび",
+   "romaji": "ebi",
+   "meaning": "shrimp",
+   "note": "Also written 海老 or エビ",
+   "group": "word"
+  },
+  {
+   "id": "food-tamago",
+   "front": "卵",
+   "kana": "たまご",
+   "romaji": "tamago",
+   "meaning": "egg",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-yasai",
+   "front": "野菜",
+   "kana": "やさい",
+   "romaji": "yasai",
+   "meaning": "vegetables",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-ocha",
+   "front": "お茶",
+   "kana": "おちゃ",
+   "romaji": "ocha",
+   "meaning": "green tea",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-matcha",
+   "front": "抹茶",
+   "kana": "まっちゃ",
+   "romaji": "matcha",
+   "meaning": "powdered green tea",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-ohiya",
+   "front": "お冷",
+   "kana": "おひや",
+   "romaji": "ohiya",
+   "meaning": "cold water",
+   "note": "Free in most restaurants; ask for お冷",
+   "group": "word"
+  },
+  {
+   "id": "food-nama-biiru",
+   "front": "生ビール",
+   "kana": "なまビール",
+   "romaji": "nama biiru",
+   "meaning": "draught beer",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-nihonshu",
+   "front": "日本酒",
+   "kana": "にほんしゅ",
+   "romaji": "nihonshu",
+   "meaning": "sake (rice wine)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-shouchuu",
+   "front": "焼酎",
+   "kana": "しょうちゅう",
+   "romaji": "shouchuu",
+   "meaning": "shochu (distilled spirit)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-teishoku",
+   "front": "定食",
+   "kana": "ていしょく",
+   "romaji": "teishoku",
+   "meaning": "set meal",
+   "note": "Usually comes with rice, miso soup and pickles",
+   "group": "word"
+  },
+  {
+   "id": "food-tanpin",
+   "front": "単品",
+   "kana": "たんぴん",
+   "romaji": "tanpin",
+   "meaning": "item only (no set)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-oomori",
+   "front": "大盛り",
+   "kana": "おおもり",
+   "romaji": "oomori",
+   "meaning": "large portion",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-namimori",
+   "front": "並盛り",
+   "kana": "なみもり",
+   "romaji": "namimori",
+   "meaning": "regular portion",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-osusume",
+   "front": "おすすめ",
+   "kana": "おすすめ",
+   "romaji": "osusume",
+   "meaning": "recommended",
+   "note": "Look for this on menus and boards",
+   "group": "word"
+  },
+  {
+   "id": "food-tabehoudai",
+   "front": "食べ放題",
+   "kana": "たべほうだい",
+   "romaji": "tabehoudai",
+   "meaning": "all you can eat",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-nomihoudai",
+   "front": "飲み放題",
+   "kana": "のみほうだい",
+   "romaji": "nomihoudai",
+   "meaning": "all you can drink",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-shokken",
+   "front": "食券",
+   "kana": "しょっけん",
+   "romaji": "shokken",
+   "meaning": "meal ticket",
+   "note": "Buy it from the machine by the door first",
+   "group": "word"
+  },
+  {
+   "id": "food-kikan-gentei",
+   "front": "期間限定",
+   "kana": "きかんげんてい",
+   "romaji": "kikan gentei",
+   "meaning": "limited time only",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-karakuchi",
+   "front": "辛口",
+   "kana": "からくち",
+   "romaji": "karakuchi",
+   "meaning": "spicy; dry (sake)",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-amakuchi",
+   "front": "甘口",
+   "kana": "あまくち",
+   "romaji": "amakuchi",
+   "meaning": "mild; sweet",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-zeikomi",
+   "front": "税込",
+   "kana": "ぜいこみ",
+   "romaji": "zeikomi",
+   "meaning": "tax included",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-okaikei",
+   "front": "お会計",
+   "kana": "おかいけい",
+   "romaji": "okaikei",
+   "meaning": "the bill",
+   "note": "Say お会計お願いします to ask for the bill",
+   "group": "word"
+  }
+ ]
+}

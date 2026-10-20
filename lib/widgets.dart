@@ -8,6 +8,7 @@ class SpeakButton extends StatelessWidget {
   const SpeakButton({
     super.key,
     required this.text,
+    this.reading,
     required this.background,
     required this.foreground,
     this.size = 44,
@@ -15,6 +16,7 @@ class SpeakButton extends StatelessWidget {
   });
 
   final String text;
+  final String? reading;
   final Color background;
   final Color foreground;
   final double size;
@@ -30,8 +32,8 @@ class SpeakButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(14),
         child: InkWell(
           borderRadius: BorderRadius.circular(14),
-          onTap: () => Speech.speak(text),
-          onLongPress: () => Speech.speak(text, slow: true),
+          onTap: () => Speech.speak(text, reading: reading),
+          onLongPress: () => Speech.speak(text, reading: reading, slow: true),
           child: SizedBox(
             width: size,
             height: size,

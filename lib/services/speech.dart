@@ -34,7 +34,9 @@ class Speech {
 
   static bool hasClip(String text) => _clips.containsKey(text);
 
-  static Future<void> speak(String text, {bool slow = false}) async {
+  /// Plays the clip recorded for [text]. Without a clip, the phone voice
+  /// reads [reading] (the kana) so kanji are never misread.
+  static Future<void> speak(String text, {String? reading, bool slow = false}) async {
     if (text.isEmpty) return;
     await loadIndex();
     final clip = _clips[text];
@@ -49,7 +51,7 @@ class Speech {
         // Fall through to the phone voice.
       }
     }
-    await _speakTts(text, slow: slow);
+    await _speakTts(reading ?? text, slow: slow);
   }
 
   static Future<void> _speakTts(String text, {required bool slow}) async {

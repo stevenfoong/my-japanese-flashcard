@@ -128,6 +128,18 @@ def main():
                 clips[word] = rel
                 word_jobs.setdefault(rel, word)
 
+    # Word decks (katakana words, food menu, ...): one clip per card, made
+    # from the kana reading so kanji are never misread.
+    for path in sorted(DECKS.glob("*.json")):
+        if path.stem in ("hiragana", "katakana"):
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        for card in data["cards"]:
+            spoken = card.get("kana") or card["front"]
+            rel = f"words/w{hashlib.sha1(spoken.encode()).hexdigest()[:10]}.mp3"
+            clips[card["front"]] = rel
+            word_jobs.setdefault(rel, spoken)
+
     made = 0
     for rel, kana in kana_jobs.items():
         dest = OUT / rel

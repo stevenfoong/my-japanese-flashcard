@@ -26,6 +26,8 @@ class KanaCard {
     required this.note,
     required this.audio,
     required this.examples,
+    this.kana = '',
+    this.meaning = '',
   });
 
   final String id;
@@ -38,6 +40,18 @@ class KanaCard {
   final String note;
   final String? audio;
   final List<Example> examples;
+
+  /// Reading in kana (word decks). Empty for single-kana cards.
+  final String kana;
+
+  /// English meaning (word decks). Empty for single-kana cards.
+  final String meaning;
+
+  /// A word or phrase card rather than a single kana.
+  bool get isWord => group == 'word';
+
+  /// What the voice should read: the kana reading when there is one.
+  String get reading => kana.isNotEmpty ? kana : front;
 
   factory KanaCard.fromJson(String deck, Map<String, dynamic> j) => KanaCard(
         id: j['id'] as String,
@@ -52,6 +66,8 @@ class KanaCard {
         examples: ((j['examples'] as List?) ?? const [])
             .map((e) => Example.fromJson(Map<String, dynamic>.from(e as Map)))
             .toList(),
+        kana: (j['kana'] as String?) ?? '',
+        meaning: (j['meaning'] as String?) ?? '',
       );
 }
 
@@ -66,8 +82,10 @@ class PracticeSet {
   static const hiragana = PracticeSet('hiragana', 'Hiragana', ['hiragana']);
   static const katakana = PracticeSet('katakana', 'Katakana', ['katakana']);
   static const both = PracticeSet('hiragana+katakana', 'Hiragana + Katakana', ['hiragana', 'katakana']);
+  static const katakanaWords = PracticeSet('katakana_words', 'Katakana words', ['katakana_words']);
+  static const foodMenu = PracticeSet('food_menu', 'Food menu', ['food_menu']);
 
-  static const all = [hiragana, katakana, both];
+  static const all = [hiragana, katakana, both, katakanaWords, foodMenu];
 
   static PracticeSet? byKey(String? key) {
     for (final s in all) {
