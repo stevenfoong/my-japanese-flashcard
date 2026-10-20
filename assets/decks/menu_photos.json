@@ -103,6 +103,66 @@
    "note": "品 counts dishes: 1品 ippin, 2品 nihin",
    "group": "word",
    "photo": "photos/menu001-10.webp"
+  },
+  {
+   "id": "photo-menu002-01",
+   "front": "ゴマドレッシング",
+   "kana": "ごまドレッシング",
+   "romaji": "goma doresshingu",
+   "meaning": "sesame dressing",
+   "note": "ゴマ (sesame) is often written in katakana on labels",
+   "group": "word",
+   "photo": "photos/menu002-01.webp"
+  },
+  {
+   "id": "photo-menu002-02",
+   "front": "かぶらドレッシング",
+   "kana": "かぶらドレッシング",
+   "romaji": "kabura doresshingu",
+   "meaning": "turnip dressing",
+   "note": "かぶら is an older word for かぶ (turnip)",
+   "group": "word",
+   "photo": "photos/menu002-02.webp"
+  },
+  {
+   "id": "photo-menu002-03",
+   "front": "あおさとゆず",
+   "kana": "あおさとゆず",
+   "romaji": "aosa to yuzu",
+   "meaning": "sea lettuce and yuzu",
+   "note": "あおさ is a green seaweed; ゆず is a Japanese citrus; と means and",
+   "group": "word",
+   "photo": "photos/menu002-03.webp"
+  },
+  {
+   "id": "photo-menu002-04",
+   "front": "オリーブと玉ねぎ",
+   "kana": "オリーブとたまねぎ",
+   "romaji": "oriibu to tamanegi",
+   "meaning": "olive and onion",
+   "note": "玉ねぎ means onion",
+   "group": "word",
+   "photo": "photos/menu002-04.webp"
+  },
+  {
+   "id": "photo-menu002-05",
+   "front": "すりおろしわさび",
+   "kana": "すりおろしわさび",
+   "romaji": "surioroshi wasabi",
+   "meaning": "freshly grated wasabi",
+   "note": "すりおろし means grated",
+   "group": "word",
+   "photo": "photos/menu002-05.webp"
+  },
+  {
+   "id": "photo-menu002-06",
+   "front": "バジルチーズ",
+   "kana": "バジルチーズ",
+   "romaji": "bajiru chiizu",
+   "meaning": "basil cheese",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu002-06.webp"
   }
  ]
 }
