@@ -163,6 +163,46 @@
    "note": "",
    "group": "word",
    "photo": "photos/menu002-06.webp"
+  },
+  {
+   "id": "photo-menu003-01",
+   "front": "チキン南蛮定食",
+   "kana": "チキンなんばんていしょく",
+   "romaji": "chikin nanban teishoku",
+   "meaning": "chicken nanban set meal",
+   "note": "Fried chicken in sweet vinegar sauce with homemade tartar sauce; the most re-ordered dish. Main dish only ¥650. Swap miso soup for curry +¥200",
+   "group": "word",
+   "photo": "photos/menu003-01.webp"
+  },
+  {
+   "id": "photo-menu003-02",
+   "front": "名物から揚げ定食",
+   "kana": "めいぶつからあげていしょく",
+   "romaji": "meibutsu karaage teishoku",
+   "meaning": "signature fried chicken set meal",
+   "note": "名物 means house speciality. Won gold at the 2021 Karaage Grand Prix; light on garlic. Main dish only ¥600. Swap miso soup for curry +¥200",
+   "group": "word",
+   "photo": "photos/menu003-02.webp"
+  },
+  {
+   "id": "photo-menu003-03",
+   "front": "豚生姜焼き定食",
+   "kana": "ぶたしょうがやきていしょく",
+   "romaji": "buta shougayaki teishoku",
+   "meaning": "pork ginger set meal",
+   "note": "Tender pork loin stir-fried in homemade ginger sauce. Main dish only ¥600. Swap miso soup for curry +¥200",
+   "group": "word",
+   "photo": "photos/menu003-03.webp"
+  },
+  {
+   "id": "photo-menu003-04",
+   "front": "オムライス",
+   "kana": "オムライス",
+   "romaji": "omuraisu",
+   "meaning": "omelette rice (with salad)",
+   "note": "付き means comes with. Chicken rice wrapped in egg. No salad −¥50, large (大盛り) ¥1,000, small (小盛り) ¥850, add curry +¥200",
+   "group": "word",
+   "photo": "photos/menu003-04.webp"
   }
  ]
 }

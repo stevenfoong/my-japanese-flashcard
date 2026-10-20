@@ -122,7 +122,7 @@ class _WordCardState extends State<WordCard> {
         children: [
           Text('REAL MENU', style: TextStyle(fontSize: 11, letterSpacing: 3, color: look.accent)),
           const SizedBox(height: 12),
-          _photo(180),
+          _photo(320),
           const SizedBox(height: 16),
           Text('Read it out loud, then tap', style: TextStyle(fontSize: 14, color: look.soft)),
           const SizedBox(height: 6),
@@ -167,7 +167,7 @@ class _WordCardState extends State<WordCard> {
           children: [
             const SizedBox(height: 12),
             if (card.photo.isNotEmpty) ...[
-              _photo(72),
+              _photo(110),
               const SizedBox(height: 8),
             ],
             FittedBox(
