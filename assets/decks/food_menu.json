@@ -525,6 +525,69 @@
    "meaning": "the bill",
    "note": "Say お会計お願いします to ask for the bill",
    "group": "word"
+  },
+  {
+   "id": "food-konohadon",
+   "front": "木の葉丼",
+   "kana": "このはどん",
+   "romaji": "konohadon",
+   "meaning": "fish cake and egg rice bowl",
+   "note": "木の葉 means tree leaves; a Kansai dish",
+   "group": "word"
+  },
+  {
+   "id": "food-tamagodon",
+   "front": "玉子丼",
+   "kana": "たまごどん",
+   "romaji": "tamagodon",
+   "meaning": "egg rice bowl",
+   "note": "Also written 玉丼 (tamadon)",
+   "group": "word"
+  },
+  {
+   "id": "food-ankake-yakisoba",
+   "front": "あんかけ焼そば",
+   "kana": "あんかけやきそば",
+   "romaji": "ankake yakisoba",
+   "meaning": "fried noodles with thick sauce",
+   "note": "あんかけ is a thick, glossy sauce poured on top",
+   "group": "word"
+  },
+  {
+   "id": "food-wantanmen",
+   "front": "ワンタンメン",
+   "kana": "ワンタンメン",
+   "romaji": "wantanmen",
+   "meaning": "wonton noodle soup",
+   "note": "In handwriting ン can look like シ",
+   "group": "word"
+  },
+  {
+   "id": "food-wantan",
+   "front": "ワンタン",
+   "kana": "ワンタン",
+   "romaji": "wantan",
+   "meaning": "wontons",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-karee-raamen",
+   "front": "カレーラーメン",
+   "kana": "カレーラーメン",
+   "romaji": "karee raamen",
+   "meaning": "curry ramen",
+   "note": "",
+   "group": "word"
+  },
+  {
+   "id": "food-chaashuu-men",
+   "front": "チャーシューめん",
+   "kana": "チャーシューめん",
+   "romaji": "chaashuu men",
+   "meaning": "ramen topped with sliced roast pork",
+   "note": "Also written チャーシュー麺",
+   "group": "word"
   }
  ]
 }
