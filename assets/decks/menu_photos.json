@@ -1303,6 +1303,346 @@
    "note": "Tonkatsu shops often refill cabbage",
    "group": "word",
    "photo": "photos/menu006-33.webp"
+  },
+  {
+   "id": "photo-menu007-01",
+   "front": "ビール(中)",
+   "kana": "ビール、ちゅう",
+   "romaji": "biiru (chuu)",
+   "meaning": "medium beer",
+   "note": "(中) means medium; (小) means small",
+   "group": "word",
+   "photo": "photos/menu007-01.webp"
+  },
+  {
+   "id": "photo-menu007-02",
+   "front": "おにぎり",
+   "kana": "おにぎり",
+   "romaji": "onigiri",
+   "meaning": "rice ball",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-02.webp"
+  },
+  {
+   "id": "photo-menu007-03",
+   "front": "ごはん",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "meaning": "rice",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-03.webp"
+  },
+  {
+   "id": "photo-menu007-04",
+   "front": "なべやきうどん",
+   "kana": "なべやきうどん",
+   "romaji": "nabeyaki udon",
+   "meaning": "udon hot pot",
+   "note": "Udon cooked in its own small pot with toppings",
+   "group": "word",
+   "photo": "photos/menu007-04.webp"
+  },
+  {
+   "id": "photo-menu007-05",
+   "front": "カレーうどん",
+   "kana": "カレーうどん",
+   "romaji": "karee udon",
+   "meaning": "curry udon",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-05.webp"
+  },
+  {
+   "id": "photo-menu007-06",
+   "front": "肉うどん",
+   "kana": "にくうどん",
+   "romaji": "niku udon",
+   "meaning": "meat udon (usually beef)",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-06.webp"
+  },
+  {
+   "id": "photo-menu007-07",
+   "front": "玉子とじうどん",
+   "kana": "たまごとじうどん",
+   "romaji": "tamago toji udon",
+   "meaning": "udon with softly set egg",
+   "note": "とじ means bound with beaten egg",
+   "group": "word",
+   "photo": "photos/menu007-07.webp"
+  },
+  {
+   "id": "photo-menu007-08",
+   "front": "きつねうどん",
+   "kana": "きつねうどん",
+   "romaji": "kitsune udon",
+   "meaning": "udon with sweet fried tofu",
+   "note": "きつね (fox) is the name for the fried tofu topping",
+   "group": "word",
+   "photo": "photos/menu007-08.webp"
+  },
+  {
+   "id": "photo-menu007-09",
+   "front": "親子どんぶり みそ汁付",
+   "kana": "おやこどんぶり、みそしるつき",
+   "romaji": "oyako donburi (misoshiru tsuki)",
+   "meaning": "chicken and egg rice bowl, with miso soup",
+   "note": "付 means comes with",
+   "group": "word",
+   "photo": "photos/menu007-09.webp"
+  },
+  {
+   "id": "photo-menu007-10",
+   "front": "他人どんぶり",
+   "kana": "たにんどんぶり",
+   "romaji": "tanin donburi",
+   "meaning": "meat and egg rice bowl",
+   "note": "他人 means stranger: like 親子 but with beef or pork",
+   "group": "word",
+   "photo": "photos/menu007-10.webp"
+  },
+  {
+   "id": "photo-menu007-11",
+   "front": "カツどんぶり",
+   "kana": "カツどんぶり",
+   "romaji": "katsu donburi",
+   "meaning": "pork cutlet rice bowl",
+   "note": "The same dish as カツ丼",
+   "group": "word",
+   "photo": "photos/menu007-11.webp"
+  },
+  {
+   "id": "photo-menu007-12",
+   "front": "焼めし スープつき",
+   "kana": "やきめし、スープつき",
+   "romaji": "yakimeshi (suupu tsuki)",
+   "meaning": "fried rice with soup",
+   "note": "焼めし is another word for チャーハン",
+   "group": "word",
+   "photo": "photos/menu007-12.webp"
+  },
+  {
+   "id": "photo-menu007-13",
+   "front": "八宝菜",
+   "kana": "はっぽうさい",
+   "romaji": "happousai",
+   "meaning": "stir-fried vegetables and seafood",
+   "note": "A Chinese-style dish; 八宝 means eight treasures",
+   "group": "word",
+   "photo": "photos/menu007-13.webp"
+  },
+  {
+   "id": "photo-menu007-14",
+   "front": "中華丼",
+   "kana": "ちゅうかどん",
+   "romaji": "chuukadon",
+   "meaning": "Chinese-style rice bowl",
+   "note": "八宝菜 served over rice",
+   "group": "word",
+   "photo": "photos/menu007-14.webp"
+  },
+  {
+   "id": "photo-menu007-15",
+   "front": "野菜いため",
+   "kana": "やさいいため",
+   "romaji": "yasai itame",
+   "meaning": "stir-fried vegetables",
+   "note": "Also written 野菜炒め",
+   "group": "word",
+   "photo": "photos/menu007-15.webp"
+  },
+  {
+   "id": "photo-menu007-16",
+   "front": "チャンポン",
+   "kana": "チャンポン",
+   "romaji": "chanpon",
+   "meaning": "champon noodles",
+   "note": "Noodles with lots of vegetables and seafood",
+   "group": "word",
+   "photo": "photos/menu007-16.webp"
+  },
+  {
+   "id": "photo-menu007-17",
+   "front": "五目そば",
+   "kana": "ごもくそば",
+   "romaji": "gomoku soba",
+   "meaning": "noodles with mixed toppings",
+   "note": "五目 means many ingredients; そば here means Chinese noodles",
+   "group": "word",
+   "photo": "photos/menu007-17.webp"
+  },
+  {
+   "id": "photo-menu007-18",
+   "front": "ラーメン",
+   "kana": "ラーメン",
+   "romaji": "raamen",
+   "meaning": "ramen",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-18.webp"
+  },
+  {
+   "id": "photo-menu007-19",
+   "front": "どんぶり各種",
+   "kana": "どんぶりかくしゅ",
+   "romaji": "donburi kakushu",
+   "meaning": "all kinds of rice bowls",
+   "note": "各種 means every kind",
+   "group": "word",
+   "photo": "photos/menu007-19.webp"
+  },
+  {
+   "id": "photo-menu007-20",
+   "front": "ライス、焼き飯",
+   "kana": "ライス、やきめし",
+   "romaji": "raisu, yakimeshi",
+   "meaning": "rice, fried rice",
+   "note": "ライス is rice served on a plate",
+   "group": "word",
+   "photo": "photos/menu007-20.webp"
+  },
+  {
+   "id": "photo-menu007-21",
+   "front": "大盛は¥100upです",
+   "kana": "おおもりは ひゃくえんアップです",
+   "romaji": "oomori wa hyaku en appu desu",
+   "meaning": "a large portion is 100 yen extra",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-21.webp"
+  },
+  {
+   "id": "photo-menu007-22",
+   "front": "尚、麺類は大盛できません",
+   "kana": "なお、めんるいはおおもりできません",
+   "romaji": "nao, menrui wa oomori dekimasen",
+   "meaning": "note: noodle dishes cannot be made large",
+   "note": "麺類 means noodle dishes; できません means cannot",
+   "group": "word",
+   "photo": "photos/menu007-22.webp"
+  },
+  {
+   "id": "photo-menu007-23",
+   "front": "和風カレー丼定食",
+   "kana": "わふうカレーどんていしょく",
+   "romaji": "wafuu karee don teishoku",
+   "meaning": "Japanese-style curry rice bowl set meal",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-23.webp"
+  },
+  {
+   "id": "photo-menu007-24",
+   "front": "和風カレー",
+   "kana": "わふうカレー",
+   "romaji": "wafuu karee",
+   "meaning": "Japanese-style curry",
+   "note": "Usually made with dashi stock",
+   "group": "word",
+   "photo": "photos/menu007-24.webp"
+  },
+  {
+   "id": "photo-menu007-25",
+   "front": "スープ、ミニ冷奴",
+   "kana": "スープ、ミニひややっこ",
+   "romaji": "suupu, mini hiyayakko",
+   "meaning": "soup and a small chilled tofu",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-25.webp"
+  },
+  {
+   "id": "photo-menu007-26",
+   "front": "うどん定食",
+   "kana": "うどんていしょく",
+   "romaji": "udon teishoku",
+   "meaning": "udon set meal",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-26.webp"
+  },
+  {
+   "id": "photo-menu007-27",
+   "front": "きざみうどん",
+   "kana": "きざみうどん",
+   "romaji": "kizami udon",
+   "meaning": "udon with chopped fried tofu",
+   "note": "きざみ means chopped",
+   "group": "word",
+   "photo": "photos/menu007-27.webp"
+  },
+  {
+   "id": "photo-menu007-28",
+   "front": "おにぎり2個、ミニ冷奴",
+   "kana": "おにぎりにこ、ミニひややっこ",
+   "romaji": "onigiri niko, mini hiyayakko",
+   "meaning": "2 rice balls and a small chilled tofu",
+   "note": "個 counts small things",
+   "group": "word",
+   "photo": "photos/menu007-28.webp"
+  },
+  {
+   "id": "photo-menu007-29",
+   "front": "ラーメン定食",
+   "kana": "ラーメンていしょく",
+   "romaji": "raamen teishoku",
+   "meaning": "ramen set meal",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu007-29.webp"
+  },
+  {
+   "id": "photo-menu007-30",
+   "front": "かつとじ定食",
+   "kana": "かつとじていしょく",
+   "romaji": "katsutoji teishoku",
+   "meaning": "cutlet simmered with egg set meal",
+   "note": "Like カツ丼 but served apart from the rice",
+   "group": "word",
+   "photo": "photos/menu007-30.webp"
+  },
+  {
+   "id": "photo-menu007-31",
+   "front": "野菜炒め定食",
+   "kana": "やさいいためていしょく",
+   "romaji": "yasai itame teishoku",
+   "meaning": "stir-fried vegetable set meal",
+   "note": "炒め is the kanji for いため",
+   "group": "word",
+   "photo": "photos/menu007-31.webp"
+  },
+  {
+   "id": "photo-menu007-32",
+   "front": "玉丼定食",
+   "kana": "たまどんていしょく",
+   "romaji": "tamadon teishoku",
+   "meaning": "egg rice bowl set meal",
+   "note": "玉 here means egg",
+   "group": "word",
+   "photo": "photos/menu007-32.webp"
+  },
+  {
+   "id": "photo-menu007-33",
+   "front": "当店すべて税込価格です",
+   "kana": "とうてんすべてぜいこみかかくです",
+   "romaji": "touten subete zeikomi kakaku desu",
+   "meaning": "all our prices include tax",
+   "note": "当店 means this shop",
+   "group": "word",
+   "photo": "photos/menu007-33.webp"
+  },
+  {
+   "id": "photo-menu007-34",
+   "front": "各種お持ち帰り出来ます",
+   "kana": "かくしゅおもちかえりできます",
+   "romaji": "kakushu omochikaeri dekimasu",
+   "meaning": "takeaway available for everything",
+   "note": "お持ち帰り means takeaway",
+   "group": "word",
+   "photo": "photos/menu007-34.webp"
   }
  ]
 }
