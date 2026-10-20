@@ -973,6 +973,336 @@
    "note": "黄桜 means yellow cherry blossom",
    "group": "word",
    "photo": "photos/menu005-55.webp"
+  },
+  {
+   "id": "photo-menu006-01",
+   "front": "〜五味薬味と出汁で食べる和風とんかつ〜",
+   "kana": "ごみやくみとだしでたべるわふうとんかつ",
+   "romaji": "gomi yakumi to dashi de taberu wafuu tonkatsu",
+   "meaning": "Japanese-style tonkatsu eaten with five condiments and dashi",
+   "note": "薬味 means condiments; 出汁 is soup stock; 和風 means Japanese-style",
+   "group": "word",
+   "photo": "photos/menu006-01.webp"
+  },
+  {
+   "id": "photo-menu006-02",
+   "front": "とんかつ",
+   "kana": "とんかつ",
+   "romaji": "tonkatsu",
+   "meaning": "breaded pork cutlet",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-02.webp"
+  },
+  {
+   "id": "photo-menu006-03",
+   "front": "茨城県産 吉田豚",
+   "kana": "いばらきけんさん よしだぶた",
+   "romaji": "ibaraki-ken san yoshida buta",
+   "meaning": "Yoshida pork from Ibaraki Prefecture",
+   "note": "産 means produced in",
+   "group": "word",
+   "photo": "photos/menu006-03.webp"
+  },
+  {
+   "id": "photo-menu006-04",
+   "front": "ロースかつ定食",
+   "kana": "ロースかつていしょく",
+   "romaji": "roosu katsu teishoku",
+   "meaning": "pork loin cutlet set meal",
+   "note": "ロース is loin, with a little fat",
+   "group": "word",
+   "photo": "photos/menu006-04.webp"
+  },
+  {
+   "id": "photo-menu006-05",
+   "front": "上ロースかつ定食",
+   "kana": "じょうロースかつていしょく",
+   "romaji": "jou roosu katsu teishoku",
+   "meaning": "premium loin cutlet set meal",
+   "note": "上 means premium grade",
+   "group": "word",
+   "photo": "photos/menu006-05.webp"
+  },
+  {
+   "id": "photo-menu006-06",
+   "front": "厚切りロースかつ定食",
+   "kana": "あつぎりロースかつていしょく",
+   "romaji": "atsugiri roosu katsu teishoku",
+   "meaning": "thick-cut loin cutlet set meal",
+   "note": "厚切り means thick-cut",
+   "group": "word",
+   "photo": "photos/menu006-06.webp"
+  },
+  {
+   "id": "photo-menu006-07",
+   "front": "ヒレかつ定食",
+   "kana": "ヒレかつていしょく",
+   "romaji": "hire katsu teishoku",
+   "meaning": "pork fillet cutlet set meal",
+   "note": "ヒレ is fillet: leaner and softer than ロース",
+   "group": "word",
+   "photo": "photos/menu006-07.webp"
+  },
+  {
+   "id": "photo-menu006-08",
+   "front": "バラかつ定食",
+   "kana": "バラかつていしょく",
+   "romaji": "bara katsu teishoku",
+   "meaning": "pork belly cutlet set meal",
+   "note": "バラ is pork belly",
+   "group": "word",
+   "photo": "photos/menu006-08.webp"
+  },
+  {
+   "id": "photo-menu006-09",
+   "front": "メンチかつ定食",
+   "kana": "メンチかつていしょく",
+   "romaji": "menchi katsu teishoku",
+   "meaning": "minced meat cutlet set meal",
+   "note": "メンチかつ is a breaded minced-meat patty",
+   "group": "word",
+   "photo": "photos/menu006-09.webp"
+  },
+  {
+   "id": "photo-menu006-10",
+   "front": "コンビかつ定食",
+   "kana": "コンビかつていしょく",
+   "romaji": "konbi katsu teishoku",
+   "meaning": "combination cutlet set meal",
+   "note": "Two kinds of cutlet on one plate",
+   "group": "word",
+   "photo": "photos/menu006-10.webp"
+  },
+  {
+   "id": "photo-menu006-11",
+   "front": "ミルフィーユかつ定食",
+   "kana": "ミルフィーユかつていしょく",
+   "romaji": "mirufiiyu katsu teishoku",
+   "meaning": "mille-feuille cutlet set meal",
+   "note": "Thin slices of pork stacked and fried",
+   "group": "word",
+   "photo": "photos/menu006-11.webp"
+  },
+  {
+   "id": "photo-menu006-12",
+   "front": "チーズミルフィーユかつ定食",
+   "kana": "チーズミルフィーユかつていしょく",
+   "romaji": "chiizu mirufiiyu katsu teishoku",
+   "meaning": "cheese mille-feuille cutlet set meal",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-12.webp"
+  },
+  {
+   "id": "photo-menu006-13",
+   "front": "お子様ランチ定食(小学生以下限定)",
+   "kana": "おこさまランチていしょく、しょうがくせいいかげんてい",
+   "romaji": "okosama ranchi teishoku (shougakusei ika gentei)",
+   "meaning": "kids' lunch set (primary school age and under only)",
+   "note": "お子様 is a polite word for children; 限定 means limited to",
+   "group": "word",
+   "photo": "photos/menu006-13.webp"
+  },
+  {
+   "id": "photo-menu006-14",
+   "front": "(ご飯・豚汁・キャベツ・メンチカツ1個・ウィンナー2本・ゼリー)",
+   "kana": "ごはん、とんじる、キャベツ、メンチカツいっこ、ウィンナーにほん、ゼリー",
+   "romaji": "gohan, tonjiru, kyabetsu, menchi katsu ikko, uinnaa nihon, zerii",
+   "meaning": "rice, pork miso soup, cabbage, 1 minced cutlet, 2 sausages, jelly",
+   "note": "豚汁 is miso soup with pork; 本 counts long things",
+   "group": "word",
+   "photo": "photos/menu006-14.webp"
+  },
+  {
+   "id": "photo-menu006-15",
+   "front": "平日限定",
+   "kana": "へいじつげんてい",
+   "romaji": "heijitsu gentei",
+   "meaning": "weekdays only",
+   "note": "平日 means weekday",
+   "group": "word",
+   "photo": "photos/menu006-15.webp"
+  },
+  {
+   "id": "photo-menu006-16",
+   "front": "極上ロースカツ定食",
+   "kana": "ごくじょうロースカツていしょく",
+   "romaji": "gokujou roosu katsu teishoku",
+   "meaning": "finest loin cutlet set meal",
+   "note": "極上 means the very best; カツ and かつ are the same word",
+   "group": "word",
+   "photo": "photos/menu006-16.webp"
+  },
+  {
+   "id": "photo-menu006-17",
+   "front": "お重",
+   "kana": "おじゅう",
+   "romaji": "ojuu",
+   "meaning": "meal served in a lacquered box",
+   "note": "重 is a stacked lacquer box",
+   "group": "word",
+   "photo": "photos/menu006-17.webp"
+  },
+  {
+   "id": "photo-menu006-18",
+   "front": "ソースかつ重",
+   "kana": "ソースかつじゅう",
+   "romaji": "soosu katsu juu",
+   "meaning": "sauce-dipped cutlet on rice in a box",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-18.webp"
+  },
+  {
+   "id": "photo-menu006-19",
+   "front": "ソースかつ重大盛り",
+   "kana": "ソースかつじゅう おおもり",
+   "romaji": "soosu katsu juu oomori",
+   "meaning": "large sauce cutlet box",
+   "note": "大盛り is a large portion",
+   "group": "word",
+   "photo": "photos/menu006-19.webp"
+  },
+  {
+   "id": "photo-menu006-20",
+   "front": "一品・その他",
+   "kana": "いっぴん、そのた",
+   "romaji": "ippin, sono ta",
+   "meaning": "single dishes and others",
+   "note": "一品 is one dish; その他 means others",
+   "group": "word",
+   "photo": "photos/menu006-20.webp"
+  },
+  {
+   "id": "photo-menu006-21",
+   "front": "豚トロ角煮皿",
+   "kana": "とんトロかくにざら",
+   "romaji": "tontoro kakuni zara",
+   "meaning": "plate of simmered fatty pork",
+   "note": "豚トロ is fatty pork neck; 角煮 is braised cubes; 皿 is plate",
+   "group": "word",
+   "photo": "photos/menu006-21.webp"
+  },
+  {
+   "id": "photo-menu006-22",
+   "front": "つくしんぼのウィンナー3種",
+   "kana": "つくしんぼのウィンナーさんしゅ",
+   "romaji": "tsukushinbo no uinnaa sanshu",
+   "meaning": "three kinds of sausage from Tsukushinbo",
+   "note": "つくしんぼ looks like a maker or farm name; 種 counts kinds",
+   "group": "word",
+   "photo": "photos/menu006-22.webp"
+  },
+  {
+   "id": "photo-menu006-23",
+   "front": "追加単品、トッピングメニュー",
+   "kana": "ついかたんぴん、トッピングメニュー",
+   "romaji": "tsuika tanpin, toppingu menyuu",
+   "meaning": "extra single items and toppings",
+   "note": "追加 means extra or added",
+   "group": "word",
+   "photo": "photos/menu006-23.webp"
+  },
+  {
+   "id": "photo-menu006-24",
+   "front": "串カツ(ヒレ)",
+   "kana": "くしカツ、ヒレ",
+   "romaji": "kushi katsu (hire)",
+   "meaning": "fillet cutlet on a skewer",
+   "note": "串 means skewer",
+   "group": "word",
+   "photo": "photos/menu006-24.webp"
+  },
+  {
+   "id": "photo-menu006-25",
+   "front": "メンチカツ",
+   "kana": "メンチカツ",
+   "romaji": "menchi katsu",
+   "meaning": "minced meat cutlet",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-25.webp"
+  },
+  {
+   "id": "photo-menu006-26",
+   "front": "ヒレカツ",
+   "kana": "ヒレカツ",
+   "romaji": "hire katsu",
+   "meaning": "pork fillet cutlet",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-26.webp"
+  },
+  {
+   "id": "photo-menu006-27",
+   "front": "全てのメニューは",
+   "kana": "すべてのメニューは",
+   "romaji": "subete no menyuu wa",
+   "meaning": "every menu item (comes with)",
+   "note": "全て means all",
+   "group": "word",
+   "photo": "photos/menu006-27.webp"
+  },
+  {
+   "id": "photo-menu006-28",
+   "front": "ご飯(茨城町産ヒトメボレ)",
+   "kana": "ごはん、いばらきまちさん ひとめぼれ",
+   "romaji": "gohan (ibaraki-machi san hitomebore)",
+   "meaning": "rice (Hitomebore rice from Ibaraki town)",
+   "note": "ヒトメボレ is a rice variety; 町 means town",
+   "group": "word",
+   "photo": "photos/menu006-28.webp"
+  },
+  {
+   "id": "photo-menu006-29",
+   "front": "キャベツ",
+   "kana": "キャベツ",
+   "romaji": "kyabetsu",
+   "meaning": "cabbage",
+   "note": "Shredded cabbage comes with tonkatsu",
+   "group": "word",
+   "photo": "photos/menu006-29.webp"
+  },
+  {
+   "id": "photo-menu006-30",
+   "front": "漬け物(神戸中村漬物店)付き",
+   "kana": "つけもの、こうべなかむらつけものてん、つき",
+   "romaji": "tsukemono (koube nakamura tsukemono ten) tsuki",
+   "meaning": "with pickles (from a Kobe pickle shop)",
+   "note": "付き means comes with; 店 means shop",
+   "group": "word",
+   "photo": "photos/menu006-30.webp"
+  },
+  {
+   "id": "photo-menu006-31",
+   "front": "ご飯大盛り",
+   "kana": "ごはんおおもり",
+   "romaji": "gohan oomori",
+   "meaning": "large portion of rice",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-31.webp"
+  },
+  {
+   "id": "photo-menu006-32",
+   "front": "ご飯おかわり",
+   "kana": "ごはんおかわり",
+   "romaji": "gohan okawari",
+   "meaning": "rice refill",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu006-32.webp"
+  },
+  {
+   "id": "photo-menu006-33",
+   "front": "キャベツおかわり",
+   "kana": "キャベツおかわり",
+   "romaji": "kyabetsu okawari",
+   "meaning": "cabbage refill",
+   "note": "Tonkatsu shops often refill cabbage",
+   "group": "word",
+   "photo": "photos/menu006-33.webp"
   }
  ]
 }
