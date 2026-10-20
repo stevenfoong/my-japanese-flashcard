@@ -203,6 +203,226 @@
    "note": "付き means comes with. Chicken rice wrapped in egg. No salad −¥50, large (大盛り) ¥1,000, small (小盛り) ¥850, add curry +¥200",
    "group": "word",
    "photo": "photos/menu003-04.webp"
+  },
+  {
+   "id": "photo-menu004-01",
+   "front": "本日の定食",
+   "kana": "ほんじつのていしょく",
+   "romaji": "honjitsu no teishoku",
+   "meaning": "today's set meals",
+   "note": "本日 is a formal word for today",
+   "group": "word",
+   "photo": "photos/menu004-01.webp"
+  },
+  {
+   "id": "photo-menu004-02",
+   "front": "サニコメ定食",
+   "kana": "サニコメていしょく",
+   "romaji": "sanikome teishoku",
+   "meaning": "Sanikome set meal",
+   "note": "サニコメ is the restaurant's name, so this is the house set",
+   "group": "word",
+   "photo": "photos/menu004-02.webp"
+  },
+  {
+   "id": "photo-menu004-03",
+   "front": "ミニ定食",
+   "kana": "ミニていしょく",
+   "romaji": "mini teishoku",
+   "meaning": "mini set meal",
+   "note": "A smaller, cheaper version of the set",
+   "group": "word",
+   "photo": "photos/menu004-03.webp"
+  },
+  {
+   "id": "photo-menu004-04",
+   "front": "豚肩ロースと大根の韓国風煮込み",
+   "kana": "ぶたかたロースとだいこんのかんこくふうにこみ",
+   "romaji": "buta kata roosu to daikon no kankokufuu nikomi",
+   "meaning": "Korean-style simmered pork shoulder and daikon",
+   "note": "風 means -style; 煮込み means simmered",
+   "group": "word",
+   "photo": "photos/menu004-04.webp"
+  },
+  {
+   "id": "photo-menu004-05",
+   "front": "さばの照り焼き",
+   "kana": "さばのてりやき",
+   "romaji": "saba no teriyaki",
+   "meaning": "teriyaki mackerel",
+   "note": "さば is mackerel",
+   "group": "word",
+   "photo": "photos/menu004-05.webp"
+  },
+  {
+   "id": "photo-menu004-06",
+   "front": "お刺身2種",
+   "kana": "おさしみにしゅ",
+   "romaji": "osashimi nishu",
+   "meaning": "two kinds of sashimi",
+   "note": "種 counts kinds: 1種 isshu, 2種 nishu",
+   "group": "word",
+   "photo": "photos/menu004-06.webp"
+  },
+  {
+   "id": "photo-menu004-07",
+   "front": "サーモン",
+   "kana": "サーモン",
+   "romaji": "saamon",
+   "meaning": "salmon",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu004-07.webp"
+  },
+  {
+   "id": "photo-menu004-08",
+   "front": "添えもの",
+   "kana": "そえもの",
+   "romaji": "soemono",
+   "meaning": "side garnish",
+   "note": "In this handwriting 添 looks a little like 漆",
+   "group": "word",
+   "photo": "photos/menu004-08.webp"
+  },
+  {
+   "id": "photo-menu004-09",
+   "front": "彩り野菜",
+   "kana": "いろどりやさい",
+   "romaji": "irodori yasai",
+   "meaning": "colourful vegetables",
+   "note": "彩り means colour or colourful",
+   "group": "word",
+   "photo": "photos/menu004-09.webp"
+  },
+  {
+   "id": "photo-menu004-10",
+   "front": "ごはん・お味噌汁・サラダ・小鉢2品",
+   "kana": "ごはん、おみそしる、サラダ、こばちにひん",
+   "romaji": "gohan, omisoshiru, sarada, kobachi nihin",
+   "meaning": "rice, miso soup, salad and 2 small side dishes",
+   "note": "What comes with the set",
+   "group": "word",
+   "photo": "photos/menu004-10.webp"
+  },
+  {
+   "id": "photo-menu004-11",
+   "front": "バランス定食",
+   "kana": "バランスていしょく",
+   "romaji": "baransu teishoku",
+   "meaning": "balanced set meal",
+   "note": "Here you pick one meat and one fish dish",
+   "group": "word",
+   "photo": "photos/menu004-11.webp"
+  },
+  {
+   "id": "photo-menu004-12",
+   "front": "ミニ定食!",
+   "kana": "ミニていしょく",
+   "romaji": "mini teishoku",
+   "meaning": "mini set meal",
+   "note": "Same words as another card, in a different hand",
+   "group": "word",
+   "photo": "photos/menu004-12.webp"
+  },
+  {
+   "id": "photo-menu004-13",
+   "front": "肉おかずと魚おかずをお選び下さい",
+   "kana": "にくおかずとさかなおかずをおえらびください",
+   "romaji": "niku okazu to sakana okazu o oerabi kudasai",
+   "meaning": "please choose a meat dish and a fish dish",
+   "note": "お選び下さい is a polite please choose",
+   "group": "word",
+   "photo": "photos/menu004-13.webp"
+  },
+  {
+   "id": "photo-menu004-14",
+   "front": "肉おかず",
+   "kana": "にくおかず",
+   "romaji": "niku okazu",
+   "meaning": "meat dishes",
+   "note": "おかず is any dish eaten with rice",
+   "group": "word",
+   "photo": "photos/menu004-14.webp"
+  },
+  {
+   "id": "photo-menu004-15",
+   "front": "鶏むね味噌柚庵焼き",
+   "kana": "とりむねみそゆうあんやき",
+   "romaji": "tori mune miso yuuan yaki",
+   "meaning": "chicken breast grilled in miso and yuzu marinade",
+   "note": "The small kana above 柚庵 (furigana) show how to read it",
+   "group": "word",
+   "photo": "photos/menu004-15.webp"
+  },
+  {
+   "id": "photo-menu004-16",
+   "front": "豚のしょうが焼き",
+   "kana": "ぶたのしょうがやき",
+   "romaji": "buta no shougayaki",
+   "meaning": "pork ginger stir-fry",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu004-16.webp"
+  },
+  {
+   "id": "photo-menu004-17",
+   "front": "鶏のから揚げ",
+   "kana": "とりのからあげ",
+   "romaji": "tori no karaage",
+   "meaning": "Japanese fried chicken",
+   "note": "鶏 means chicken",
+   "group": "word",
+   "photo": "photos/menu004-17.webp"
+  },
+  {
+   "id": "photo-menu004-18",
+   "front": "魚おかず",
+   "kana": "さかなおかず",
+   "romaji": "sakana okazu",
+   "meaning": "fish dishes",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu004-18.webp"
+  },
+  {
+   "id": "photo-menu004-19",
+   "front": "お刺身1種",
+   "kana": "おさしみいっしゅ",
+   "romaji": "osashimi isshu",
+   "meaning": "one kind of sashimi",
+   "note": "",
+   "group": "word",
+   "photo": "photos/menu004-19.webp"
+  },
+  {
+   "id": "photo-menu004-20",
+   "front": "さばの塩焼き",
+   "kana": "さばのしおやき",
+   "romaji": "saba no shioyaki",
+   "meaning": "salt-grilled mackerel",
+   "note": "塩焼き means grilled with salt",
+   "group": "word",
+   "photo": "photos/menu004-20.webp"
+  },
+  {
+   "id": "photo-menu004-21",
+   "front": "カキフライ",
+   "kana": "カキフライ",
+   "romaji": "kaki furai",
+   "meaning": "fried oysters",
+   "note": "カキ is oyster",
+   "group": "word",
+   "photo": "photos/menu004-21.webp"
+  },
+  {
+   "id": "photo-menu004-22",
+   "front": "おかげ様で5周年",
+   "kana": "おかげさまでごしゅうねん",
+   "romaji": "okagesama de go shuunen",
+   "meaning": "thanks to you, it's our 5th anniversary",
+   "note": "周年 counts anniversaries",
+   "group": "word",
+   "photo": "photos/menu004-22.webp"
   }
  ]
 }
